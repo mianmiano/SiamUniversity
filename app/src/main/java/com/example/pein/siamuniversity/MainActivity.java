@@ -1,12 +1,10 @@
 package com.example.pein.siamuniversity;
 
-import android.content.DialogInterface;
-import android.net.Uri;
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
-import android.widget.ImageButton;
 import android.widget.Toast;
 
 
@@ -16,7 +14,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             btn_sports,btn_gallery,btn_socialMedia,btn_library,btn_studentLogin,
             btn_calendar,btn_video,
             btn_suStaffs,btn_awards,btn_maps,btn_contactUs,btn_school;
-
+    Intent intent;
     Toast tst;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -63,11 +61,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     }
     public void onClick(View v) {
-        // TODO Auto-generated method stub
+        // TODO Auto-generated method stubllllll
         switch (v.getId()) {
             case R.id.button_aboutUs:
-               tst = Toast.makeText(this, "111111111", Toast.LENGTH_SHORT);
-                tst.show();
+                intent = new Intent();
+                intent.setClass(MainActivity.this, AboutusActivity.class);
+                MainActivity.this.startActivity(intent);
                 break;
             case R.id.button_academics:
                 tst = Toast.makeText(this, "22222222", Toast.LENGTH_SHORT);
@@ -82,8 +81,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 tst.show();
                 break;
             case R.id.button_news:
-                tst = Toast.makeText(this, "5555555", Toast.LENGTH_SHORT);
-                tst.show();
+                intent = new Intent();
+                intent.setClass(MainActivity.this, NewsActivity.class);
+                MainActivity.this.startActivity(intent);
                 break;
             case R.id.button_sports:
                 tst = Toast.makeText(this, "666666", Toast.LENGTH_SHORT);
@@ -94,12 +94,14 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 tst.show();
                 break;
             case R.id.button_socialMedia:
-                tst = Toast.makeText(this, "88888", Toast.LENGTH_SHORT);
-                tst.show();
+                intent = new Intent();
+                intent.setClass(MainActivity.this, SocialMediaActivity.class);
+                MainActivity.this.startActivity(intent);
                 break;
             case R.id.button_library:
-                tst = Toast.makeText(this, "9999999", Toast.LENGTH_SHORT);
-                tst.show();
+                intent = new Intent();
+                intent.setClass(MainActivity.this,LibraryActivity.class);
+                MainActivity.this.startActivity(intent);
                 break;
             case R.id.button_studentLogin:
                 tst = Toast.makeText(this, "10", Toast.LENGTH_SHORT);
@@ -110,8 +112,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 tst.show();
                 break;
             case R.id.button_video:
-                tst = Toast.makeText(this, "12", Toast.LENGTH_SHORT);
-                tst.show();
+                intent = new Intent();
+                intent.setClass(MainActivity.this, VideoActivity.class);
+                MainActivity.this.startActivity(intent);
                 break;
             case R.id.button_suStaffs:
                 tst = Toast.makeText(this, "13", Toast.LENGTH_SHORT);
