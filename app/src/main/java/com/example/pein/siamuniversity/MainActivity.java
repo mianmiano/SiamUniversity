@@ -1,0 +1,141 @@
+package com.example.pein.siamuniversity;
+
+import android.content.DialogInterface;
+import android.net.Uri;
+import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
+import android.view.View;
+import android.widget.Button;
+import android.widget.ImageButton;
+import android.widget.Toast;
+
+
+public class MainActivity extends AppCompatActivity implements View.OnClickListener {
+
+    Button btn_aboutUs,btn_academics,btn_admission,btn_studentVoice,btn_news,
+            btn_sports,btn_gallery,btn_socialMedia,btn_library,btn_studentLogin,
+            btn_calendar,btn_video,
+            btn_suStaffs,btn_awards,btn_maps,btn_contactUs,btn_school;
+
+    Toast tst;
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+
+        //初始化button
+        btn_aboutUs=(Button) findViewById(R.id.button_aboutUs);
+        btn_academics=(Button) findViewById(R.id.button_academics);
+        btn_admission=(Button) findViewById(R.id.button_admission);
+        btn_studentVoice=(Button) findViewById(R.id.button_studentVoice);
+        btn_news=(Button) findViewById(R.id.button_news);
+        btn_sports=(Button) findViewById(R.id.button_sports);
+        btn_gallery=(Button) findViewById(R.id.button_gallery);
+        btn_library=(Button) findViewById(R.id.button_library);
+        btn_studentLogin=(Button) findViewById(R.id.button_studentLogin);
+        btn_calendar=(Button) findViewById(R.id.button_calendar);
+        btn_video=(Button) findViewById(R.id.button_video);
+        btn_suStaffs=(Button) findViewById(R.id.button_suStaffs);
+        btn_awards=(Button) findViewById(R.id.button_awards);
+        btn_maps=(Button) findViewById(R.id.button_maps);
+        btn_contactUs=(Button) findViewById(R.id.button_contactUs);
+        btn_school=(Button) findViewById(R.id.button_school);
+        btn_socialMedia=(Button) findViewById(R.id.button_socialMedia);
+
+        //button添加监听
+        btn_aboutUs.setOnClickListener(this);
+        btn_academics.setOnClickListener(this);
+        btn_admission.setOnClickListener(this);
+        btn_studentVoice.setOnClickListener(this);
+        btn_news.setOnClickListener(this);
+        btn_sports.setOnClickListener(this);
+        btn_gallery.setOnClickListener(this);
+        btn_socialMedia.setOnClickListener(this);
+        btn_library.setOnClickListener(this);
+        btn_studentLogin.setOnClickListener(this);
+        btn_calendar.setOnClickListener(this);
+        btn_video.setOnClickListener(this);
+        btn_suStaffs.setOnClickListener(this);
+        btn_awards.setOnClickListener(this);
+        btn_maps.setOnClickListener(this);
+        btn_contactUs.setOnClickListener(this);
+        btn_school.setOnClickListener(this);
+
+    }
+    public void onClick(View v) {
+        // TODO Auto-generated method stub
+        switch (v.getId()) {
+            case R.id.button_aboutUs:
+               tst = Toast.makeText(this, "111111111", Toast.LENGTH_SHORT);
+                tst.show();
+                break;
+            case R.id.button_academics:
+                tst = Toast.makeText(this, "22222222", Toast.LENGTH_SHORT);
+                tst.show();
+                break;
+            case R.id.button_admission:
+                tst = Toast.makeText(this, "33333333", Toast.LENGTH_SHORT);
+                tst.show();
+                break;
+            case R.id.button_studentVoice:
+                tst = Toast.makeText(this, "444444", Toast.LENGTH_SHORT);
+                tst.show();
+                break;
+            case R.id.button_news:
+                tst = Toast.makeText(this, "5555555", Toast.LENGTH_SHORT);
+                tst.show();
+                break;
+            case R.id.button_sports:
+                tst = Toast.makeText(this, "666666", Toast.LENGTH_SHORT);
+                tst.show();
+                break;
+            case R.id.button_gallery:
+                tst = Toast.makeText(this, "777777", Toast.LENGTH_SHORT);
+                tst.show();
+                break;
+            case R.id.button_socialMedia:
+                tst = Toast.makeText(this, "88888", Toast.LENGTH_SHORT);
+                tst.show();
+                break;
+            case R.id.button_library:
+                tst = Toast.makeText(this, "9999999", Toast.LENGTH_SHORT);
+                tst.show();
+                break;
+            case R.id.button_studentLogin:
+                tst = Toast.makeText(this, "10", Toast.LENGTH_SHORT);
+                tst.show();
+                break;
+            case R.id.button_calendar:
+                tst = Toast.makeText(this, "11", Toast.LENGTH_SHORT);
+                tst.show();
+                break;
+            case R.id.button_video:
+                tst = Toast.makeText(this, "12", Toast.LENGTH_SHORT);
+                tst.show();
+                break;
+            case R.id.button_suStaffs:
+                tst = Toast.makeText(this, "13", Toast.LENGTH_SHORT);
+                tst.show();
+                break;
+            case R.id.button_awards:
+                tst = Toast.makeText(this, "14", Toast.LENGTH_SHORT);
+                tst.show();
+                break;
+            case R.id.button_maps:
+                tst = Toast.makeText(this, "15", Toast.LENGTH_SHORT);
+                tst.show();
+                break;
+            case R.id.button_contactUs:
+                tst = Toast.makeText(this, "16", Toast.LENGTH_SHORT);
+                tst.show();
+                break;
+            case R.id.button_school:
+                tst = Toast.makeText(this, "17", Toast.LENGTH_SHORT);
+                tst.show();
+                break;
+        }
+    }
+
+
+
+}
