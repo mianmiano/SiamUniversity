@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.pein.siamuniversity.Gallery_StudentActivityActivity">
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="horizontal"
+        android:fitsSystemWindows="true"
+        android:layout_gravity="center_vertical" >
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/imageView_GalleryStudentActivity1"
+                android:layout_width="400dip"
+                android:layout_height="200dip"
+                android:layout_marginRight="2dp"
+                android:background="@drawable/gallery1" />
+
+            <ImageView
+                android:id="@+id/imageView_GalleryStudentActivity2"
+                android:layout_width="400dip"
+                android:layout_height="200dip"
+                android:layout_marginRight="2dp"
+                android:src="@drawable/gallery2" />
+
+            <ImageView
+                android:id="@+id/imageView_GalleryStudentActivity3"
+                android:layout_width="400dip"
+                android:layout_height="200dip"
+                android:src="@drawable/gallery3" />
+
+            <ImageView
+                android:id="@+id/imageView_GalleryStudentActivity4"
+                android:layout_width="400dip"
+                android:layout_height="200dip"
+                android:src="@drawable/gallery4" />
+
+            <ImageView
+                android:id="@+id/imageView_GalleryStudentActivity5"
+                android:layout_width="400dip"
+                android:layout_height="200dip"
+                android:src="@drawable/gallery5" />
+
+            <ImageView
+                android:id="@+id/imageView_GalleryStudentActivity6"
+                android:layout_width="400dip"
+                android:layout_height="200dip"
+                android:src="@drawable/gallery6" />
+
+            <ImageView
+                android:id="@+id/imageView_GalleryStudentActivity7"
+                android:layout_width="400dip"
+                android:layout_height="200dip"
+                android:src="@drawable/gallery7" />
+
+            <ImageView
+                android:id="@+id/imageView_GalleryStudentActivity8"
+                android:layout_width="400dip"
+                android:layout_height="200dip"
+                android:src="@drawable/gallery8" />
+
+            <ImageView
+                android:id="@+id/imageView_GalleryStudentActivity9"
+                android:layout_width="400dip"
+                android:layout_height="200dip"
+                android:src="@drawable/gallery9" />
+
+            <ImageView
+                android:id="@+id/imageView_GalleryStudentActivity10"
+                android:layout_width="400dip"
+                android:layout_height="200dip"
+                android:src="@drawable/gallery10" />
+
+            <ImageView
+                android:id="@+id/imageView_GalleryStudentActivity11"
+                android:layout_width="400dip"
+                android:layout_height="200dip"
+                android:src="@drawable/gallery11" />
+        </LinearLayout>
+    </HorizontalScrollView>
+
+</LinearLayout>

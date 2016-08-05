@@ -91,8 +91,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 tst.show();
                 break;
             case R.id.button_gallery:
-                tst = Toast.makeText(this, "777777", Toast.LENGTH_SHORT);
-                tst.show();
+                intent = new Intent();
+                intent.setClass(MainActivity.this, GalleryActivity.class);
+                MainActivity.this.startActivity(intent);
                 break;
             case R.id.button_socialMedia:
                 intent = new Intent();
@@ -109,8 +110,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 tst.show();
                 break;
             case R.id.button_calendar:
-                tst = Toast.makeText(this, "11", Toast.LENGTH_SHORT);
-                tst.show();
+                intent = new Intent();
+                intent.setClass(MainActivity.this,CalenderActivity.class);
+                MainActivity.this.startActivity(intent);
                 break;
             case R.id.button_video:
                 intent = new Intent();
@@ -122,16 +124,18 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 tst.show();
                 break;
             case R.id.button_awards:
-                tst = Toast.makeText(this, "14", Toast.LENGTH_SHORT);
-                tst.show();
+                intent = new Intent();
+                intent.setClass(MainActivity.this, AwardsActivity.class);
+                MainActivity.this.startActivity(intent);
                 break;
             case R.id.button_maps:
                 tst = Toast.makeText(this, "15", Toast.LENGTH_SHORT);
                 tst.show();
                 break;
             case R.id.button_contactUs:
-                tst = Toast.makeText(this, "16", Toast.LENGTH_SHORT);
-                tst.show();
+                intent = new Intent();
+                intent.setClass(MainActivity.this, ContactUsActivity.class);
+                MainActivity.this.startActivity(intent);
                 break;
             case R.id.button_school:
                 tst = Toast.makeText(this, "17", Toast.LENGTH_SHORT);

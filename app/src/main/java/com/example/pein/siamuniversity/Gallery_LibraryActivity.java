@@ -3,11 +3,11 @@ package com.example.pein.siamuniversity;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class Admisson_ApplyFromAbroadActivity extends AppCompatActivity {
+public class Gallery_LibraryActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_admisson_apply_from_abroad);
+        setContentView(R.layout.activity_gallery_library);
     }
 }
