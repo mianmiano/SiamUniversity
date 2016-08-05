@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.pein.siamuniversity">
-
     <uses-permission android:name="android.permission.INTERNET" />
 
     <application
@@ -9,18 +8,13 @@
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
-        >
+        android:theme="@style/AppTheme2">
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/AppTheme"></activity>
         <activity android:name=".AboutusActivity" />
         <activity android:name=".NewsActivity" />
-        >
+
         <meta-data
             android:name="com.google.android.gms.version"
             android:value="@integer/google_play_services_version" />
@@ -29,53 +23,16 @@
         <activity android:name=".SocialMediaActivity" />
         <activity android:name=".StudentLoginActivity" />
         <activity android:name=".LibraryActivity" />
-        <activity android:name=".WelcomeActivity" />
-        <activity android:name=".Aboutus_HistoryActivity" />
-        <activity android:name=".Aboutus_MessageFromThePresidentActivity" />
-        <activity android:name=".Aboutus_MissionAndVisionActivity" />
-        <activity android:name=".Aboutus_StrategiesActivity" />
-        <activity android:name=".Aboutus_InternationalColleborationsActivity" />
-        <activity android:name=".Aboutus_SdudentConductPolicyActivity" />
-        <activity android:name=".Aboutus_GradingSystemActivity" />
-        <activity android:name=".Aboutus_HonorSystemActivity" />
-        <activity android:name=".Aboutus_InternationalSdudentCenterActivity" />
-        <activity android:name=".Aboutus_EnglishLanguageCenterActivity" />
-        <activity android:name=".Aboutus_InternshipAndCareerPlacementActivity" />
-        <activity android:name=".Aboutus_InternationalAccrediationActivity" />
-        <activity android:name=".AdmissionActivity" />
-        <activity android:name=".Admission_WhenToApplyActivity" />
-        <activity android:name=".Admission_AcademicQualificationsActivity" />
-        <activity android:name=".Admisson_EnglishProfeciencyActivity" />
-        <activity android:name=".Admisson_AdmissionProcedureActivity" />
-        <activity android:name=".Admisson_ApplyFromAbroadActivity" />
-        <activity android:name=".Admission_ApplicationRequirementsActivity" />
-        <activity android:name=".Admission_VisaSupportActivity" />
-        <activity android:name=".Admission_AdmissionFormActivity" />
-        <activity android:name=".Admission_AdmissionProcedureActivity" />
-        <activity android:name=".Admission_ApplyFromAbroadActivity" />
-        <activity android:name=".GallreyActivity" />
         <activity
-            android:name=".Gallery_LibraryActivity"
-            android:label="@string/title_activity_gallery__library"
-            android:theme="@style/AppTheme" />
-        <activity android:name=".Gallerry_LibraryActivity" />
-        <activity android:name=".Gallery_ComputerLabActivity" />
-        <activity android:name=".GalleryActivity" />
-        <activity android:name=".Gallery_FinancialLabActivity" />
-        <activity android:name=".Gallery_MaruaryLibraryActivity" />
-        <activity android:name=".Gallery_CampusActivity" />
-        <activity android:name=".Gallery_SportsComplexActivity" />
-        <activity android:name=".Gallery_FoodCourtActivity" />
-        <activity android:name=".Gallery_StudentActivityActivity">
+            android:name=".WelcomeActivity"
+            android:theme="@style/AppTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+
         </activity>
-        <activity android:name=".CalenderActivity" />
-        <activity android:name=".AwardsActivity" />
-        <activity android:name=".ContactUsActivity"></activity>
     </application>
 
 </manifest>
