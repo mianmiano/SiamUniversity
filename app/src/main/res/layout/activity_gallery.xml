@@ -6,13 +6,13 @@
     android:layout_height="match_parent"
     android:paddingLeft="10dp"
     android:paddingRight="10dp"
-    tools:context="com.example.pein.siamuniversity.AboutusActivity"
+    tools:context="com.example.pein.siamuniversity.GalleryActivity"
     android:orientation="vertical">
 
 
     <ListView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/listView_aboutUs"
+        android:id="@+id/listView_Gallery"
         android:layout_gravity="center_horizontal" />
 </LinearLayout>

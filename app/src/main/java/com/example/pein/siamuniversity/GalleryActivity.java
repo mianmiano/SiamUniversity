@@ -12,7 +12,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 
-public class AdmissionActivity extends AppCompatActivity {
+public class GalleryActivity extends AppCompatActivity {
 
     ListView myListView;
     List<String> itemString=new ArrayList<String>();
@@ -21,49 +21,61 @@ public class AdmissionActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_admission);
+        setContentView(R.layout.activity_gallery);
 
         ArrayList<HashMap<String, Object>> listItem =new ArrayList<HashMap<String, Object>>();
-        myListView = (ListView) findViewById(R.id.listView_admission);
+        myListView = (ListView) findViewById(R.id.listView_Gallery);
 
         HashMap <String, Object> itemMap =new HashMap <String,Object>();
-        itemMap.put("itemString","When to Apply");
+        itemMap.put("itemImage1",R.drawable.aboutus1);
+        itemMap.put("itemString","Library" );
         itemMap.put("itemImage2",R.drawable.aboutus2);
         listItem.add(itemMap);
 
         itemMap =new HashMap <String,Object>();
-        itemMap.put("itemString","Academic Qualifications" );
+        itemMap.put("itemImage1",R.drawable.aboutus1);
+        itemMap.put("itemString","Computer Lab" );
         itemMap.put("itemImage2",R.drawable.aboutus2);
         listItem.add(itemMap);
 
         itemMap =new HashMap <String,Object>();
-        itemMap.put("itemString","English Profeciency" );
+        itemMap.put("itemImage1",R.drawable.aboutus1);
+        itemMap.put("itemString","Financial Lab" );
         itemMap.put("itemImage2",R.drawable.aboutus2);
         listItem.add(itemMap);
 
         itemMap =new HashMap <String,Object>();
-        itemMap.put("itemString","Admission Procedure" );
+        itemMap.put("itemImage1",R.drawable.aboutus1);
+        itemMap.put("itemString","Maruary Library" );
         itemMap.put("itemImage2",R.drawable.aboutus2);
         listItem.add(itemMap);
 
         itemMap =new HashMap <String,Object>();
-        itemMap.put("itemString","Apply from Abroad" );
+        itemMap.put("itemImage1",R.drawable.aboutus1);
+        itemMap.put("itemString","Campus" );
         itemMap.put("itemImage2",R.drawable.aboutus2);
         listItem.add(itemMap);
 
         itemMap =new HashMap <String,Object>();
-        itemMap.put("itemString","Application Requirements" );
+        itemMap.put("itemImage1",R.drawable.aboutus1);
+        itemMap.put("itemString","Sports Complex" );
         itemMap.put("itemImage2",R.drawable.aboutus2);
         listItem.add(itemMap);
 
         itemMap =new HashMap <String,Object>();
-        itemMap.put("itemString","Visa Support" );
+        itemMap.put("itemImage1",R.drawable.aboutus1);
+        itemMap.put("itemString","Food Court" );
         itemMap.put("itemImage2",R.drawable.aboutus2);
         listItem.add(itemMap);
 
+        itemMap =new HashMap <String,Object>();
+        itemMap.put("itemImage1",R.drawable.aboutus1);
+        itemMap.put("itemString","Student Activity" );
+        itemMap.put("itemImage2",R.drawable.aboutus2);
+        listItem.add(itemMap);
 
-        SimpleAdapter mySimpleAdapter = new SimpleAdapter(this,listItem,R.layout.admissionitemlayout, new String[] {  "itemString" ,"itemImage2"},
-                new int[] { R.id.textView_admissionItem,R.id.imageView_admissionItem2 });
+        SimpleAdapter mySimpleAdapter = new SimpleAdapter(this,listItem,R.layout.aboutusitemlayout, new String[] { "itemImage1", "itemString" ,"itemImage2"},
+                new int[] { R.id.imageView_aboutUsItem1, R.id.textView_aboutUsItem,R.id.imageView_aboutUsItem2 });
 
         myListView.setAdapter(mySimpleAdapter);
         myListView.setOnItemClickListener(new AdapterView.OnItemClickListener(){
@@ -72,19 +84,21 @@ public class AdmissionActivity extends AppCompatActivity {
             public void onItemClick(AdapterView<?> arg0, View arg1, int arg2, long arg3){
                 Intent one=null;
                 switch (arg2){
-                    case 0:one=new Intent(AdmissionActivity.this,Admission_WhenToApplyActivity.class);
+                    case 0:one=new Intent(GalleryActivity.this,Gallery_LibraryActivity.class);
                         break;
-                    case 1:one=new Intent(AdmissionActivity.this,Admission_AcademicQualificationsActivity.class);
+                    case 1:one=new Intent(GalleryActivity.this,Gallery_ComputerLabActivity.class);
                         break;
-                    case 2:one=new Intent(AdmissionActivity.this,Admisson_EnglishProfeciencyActivity.class);
+                    case 2:one=new Intent(GalleryActivity.this,Gallery_FinancialLabActivity.class);
                         break;
-                    case 3:one=new Intent(AdmissionActivity.this,Admission_AdmissionProcedureActivity.class);
+                    case 3:one=new Intent(GalleryActivity.this,Gallery_MaruaryLibraryActivity.class);
                         break;
-                    case 4:one=new Intent(AdmissionActivity.this,Admission_ApplyFromAbroadActivity.class);
+                    case 4:one=new Intent(GalleryActivity.this,Gallery_CampusActivity.class);
                         break;
-                    case 5:one=new Intent(AdmissionActivity.this,Admission_ApplicationRequirementsActivity.class);
+                    case 5:one=new Intent(GalleryActivity.this,Gallery_SportsComplexActivity.class);
                         break;
-                    case 6:one=new Intent(AdmissionActivity.this,Admission_VisaSupportActivity.class);
+                    case 6:one=new Intent(GalleryActivity.this,Gallery_FoodCourtActivity.class);
+                        break;
+                    case 7:one=new Intent(GalleryActivity.this,Gallery_StudentActivityActivity.class);
                         break;
                 }
                 startActivity(one);
