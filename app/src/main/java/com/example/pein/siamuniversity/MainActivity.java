@@ -73,8 +73,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 tst.show();
                 break;
             case R.id.button_admission:
-                tst = Toast.makeText(this, "33333333", Toast.LENGTH_SHORT);
-                tst.show();
+                intent = new Intent();
+                intent.setClass(MainActivity.this, AdmissionActivity.class);
+                MainActivity.this.startActivity(intent);
                 break;
             case R.id.button_studentVoice:
                 tst = Toast.makeText(this, "444444", Toast.LENGTH_SHORT);
