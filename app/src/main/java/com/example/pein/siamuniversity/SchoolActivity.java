@@ -1,7 +1,11 @@
 package com.example.pein.siamuniversity;
 
+import android.app.Activity;
+import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.net.ConnectivityManager;
+import android.net.NetworkInfo;
 import android.os.Message;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -19,6 +23,7 @@ public class SchoolActivity extends AppCompatActivity implements View.OnClickLis
     Spinner spinProvince;
     EditText editText_name,editText_id;
     int type=0;
+    Toast tst;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -42,36 +47,40 @@ public class SchoolActivity extends AppCompatActivity implements View.OnClickLis
        // intent.setClass(SchoolActivity.this, SchoolinActivity.class);
         //SchoolActivity.this.startActivity(intent);
 
-
-        Thread thread=new Thread(new Runnable()
+        if (!isNetworkAvailable(SchoolActivity.this))
         {
-            String name=editText_name.getText().toString();
-            String id=editText_id.getText().toString();
+            Toast.makeText(getApplicationContext(), "当前无可用网络！无法登陆", Toast.LENGTH_LONG).show();
+        }
+        else if(editText_name.getText().toString().length()==0||editText_id.getText().toString().length()==0){
+            Toast.makeText(this,"用户名或者证件号不能为空", Toast.LENGTH_LONG).show();
+        }else {
+            Thread thread = new Thread(new Runnable() {
+                @Override
+                public void run() {
+                    String name = editText_name.getText().toString();
+                    String id = editText_id.getText().toString();
 
-            @Override
-            public void run()
-            {
-                // TODO Auto-generated method stub
-                Message message=new Message();
-                if(type==1){
-                    String paramter="USER="+name
-                            +"&id_number="+id	;
-                    String s = dosomething.sendGet("http://www.siam-check.com/front/search-baoming-json", paramter);
-                    message.obj = s;
-                    message.what=1;
+                    Message message = new Message();
+                    if (type == 1) {
+                        String paramter = "USER=" + name
+                                + "&id_number=" + id;
+                        String s = dosomething.sendGet("http://www.siam-check.com/front/search-baoming-json", paramter);
+                        message.obj = s;
+                        message.what = 1;
 
-                }else if(type==2){
-                    String paramter2="USER="+name
-                            +"&passport_number="+id	;
-                    String s2 = dosomething.sendGet("http://www.siam-check.com/front/search-baoming-json", paramter2);
-                    message.obj = s2;
-                    message.what=2;
+                    } else if (type == 2) {
+                        String paramter2 = "USER=" + name
+                                + "&passport_number=" + id;
+                        String s2 = dosomething.sendGet("http://www.siam-check.com/front/search-baoming-json", paramter2);
+                        message.obj = s2;
+                        message.what = 2;
+                    }
+                    mHandler.sendMessage(message);
                 }
-                mHandler.sendMessage(message);
-            }
-        });
-        thread.start();
 
+            });
+            thread.start();
+        }
     }
 
 
@@ -122,6 +131,39 @@ public class SchoolActivity extends AppCompatActivity implements View.OnClickLis
         String sInfo="请选择身份证或者护照号！";
         Toast.makeText(this,sInfo, Toast.LENGTH_LONG).show();
     }
+
+    public boolean isNetworkAvailable(Activity activity)
+    {
+        Context context = activity.getApplicationContext();
+        // 获取手机所有连接管理对象（包括对wi-fi,net等连接的管理）
+        ConnectivityManager connectivityManager = (ConnectivityManager) context.getSystemService(Context.CONNECTIVITY_SERVICE);
+
+        if (connectivityManager == null)
+        {
+            return false;
+        }
+        else
+        {
+            // 获取NetworkInfo对象
+            NetworkInfo[] networkInfo = connectivityManager.getAllNetworkInfo();
+
+            if (networkInfo != null && networkInfo.length > 0)
+            {
+                for (int i = 0; i < networkInfo.length; i++)
+                {
+                    System.out.println(i + "===状态===" + networkInfo[i].getState());
+                    System.out.println(i + "===类型===" + networkInfo[i].getTypeName());
+                    // 判断当前网络状态是否为连接状态
+                    if (networkInfo[i].getState() == NetworkInfo.State.CONNECTED)
+                    {
+                        return true;
+                    }
+                }
+            }
+        }
+        return false;
+    }
+
 
 }
 

@@ -19,33 +19,38 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:textAppearance="?android:attr/textAppearanceLarge"
-                android:text=""
-                android:id="@+id/textViewschool_1" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text=""
-                android:id="@+id/textViewschool_2" />
+                android:id="@+id/textViewschool_1"
+                 />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text=""
-                android:id="@+id/textViewschool_3" />
+                android:id="@+id/textViewschool_2"
+                />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text=""
-                android:id="@+id/textViewschool_4" />
+                android:id="@+id/textViewschool_3"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text=""
+                android:id="@+id/textViewschool_4"
+                />
 
 
             <TextView
@@ -53,65 +58,75 @@
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text=""
-                android:id="@+id/textViewschool_5" />
+                android:id="@+id/textViewschool_5"
+                />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text=""
-                android:id="@+id/textViewschool_6" />
+                android:id="@+id/textViewschool_6"
+                />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text=""
-                android:id="@+id/textViewschool_7" />
+                android:id="@+id/textViewschool_7"
+                />
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text=""
-                android:id="@+id/textViewschool_8" />
+                android:id="@+id/textViewschool_8"
+                />
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text=""
-                android:id="@+id/textViewschool_9" />
+                android:id="@+id/textViewschool_9"
+                />
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text=""
-                android:id="@+id/textViewschool_10" />
+                android:id="@+id/textViewschool_10"
+                />
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text=""
-                android:id="@+id/textViewschool_11" />
+                android:id="@+id/textViewschool_11"
+                />
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text=""
-                android:id="@+id/textViewschool_12" />
+                android:id="@+id/textViewschool_12"
+               />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text=""
-                android:id="@+id/textViewschool_13" />
+                android:id="@+id/textViewschool_13"
+                />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text=""
-                android:id="@+id/textViewschool_14" />
+                android:id="@+id/textViewschool_14"
+               />
 
 
 

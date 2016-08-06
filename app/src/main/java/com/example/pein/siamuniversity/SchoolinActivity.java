@@ -70,12 +70,46 @@ public class SchoolinActivity extends AppCompatActivity {
         tschool_school=(TextView)findViewById(R.id.textViewschool_12);
         tschool_address=(TextView)findViewById(R.id.textViewschool_13);
         tschool_contact=(TextView)findViewById(R.id.textViewschool_14);
+        Map map=dosomething.getMapFromJsonObjStr(value);
+
+        tschool_id.setText("ID:"+map.get("id"));
+
+
+        if(map.get("status").toString().equals("0")){
+            tschool_status.setText("审核状态（status）：等待审核");
+        } else if(map.get("status").toString().equals("1")){
+            tschool_status.setText("审核状态（status）：初步审核通过");
+        }else if(map.get("status").toString().equals("2")){
+            tschool_status.setText("审核状态（status）：已正式录取");
+        }else if(map.get("status").toString().equals("10")){
+            tschool_status.setText("审核状态（status）：审核不通过");
+        }
+
+
+
+        tschool_grade.setText("报名层次（Registration level）："+map.get("grade"));
+        tschool_profession.setText("意向专业（Professional intention）："+map.get("profession"));
+        tschool_name.setText("姓名（Full name）："+map.get("grade"));
+        tschool_namepin.setText("姓名拼音（Name Pinyin）："+map.get("first_name_pinyin")+map.get("last_name_pinyin"));
+        tschool_gender.setText("性别（Gender）："+map.get("gender"));
+        tschool_birth.setText("出生年月（Date of birth）："+map.get("birthday"));
+        tschool_idnumber.setText("身份证号（ID number）："+map.get("id_number"));
+        tschool_pronumber.setText("护照号（Passport No）："+map.get("passport_number"));
+        tschool_score.setText("高考成绩（Test scores）："+map.get("college_entrance_score"));
+        tschool_school.setText("毕业院校（Graduated school）："+map.get("graduated_school"));
+        tschool_address.setText("联系地址（Address）："+map.get("province")+map.get("city")+map.get("area"));
+        tschool_contact.setText("联系电话（Contact number）："+map.get("phone_no"));
 
         /*500234199210024742    p1132000002
         Map map=dosomething.getMapFromJsonObjStr(s);
         System.out.println(map.get("id"));
         System.out.println(map.get("grade"));
         System.out.println(map.get("profession"));
+        else if(map.get("status".equals("1")){
+            tschool_status.setText("审核状态（status）：初步审核通过");
+        }else if{
+
+        }
         System.out.println(map.get("name"));
         System.out.println(map.get("first_name_pinyin"));
         System.out.println(map.get("last_name_pinyin"));
@@ -93,4 +127,6 @@ public class SchoolinActivity extends AppCompatActivity {
         System.out.println(map.get("status"));*/
 
     }
+
+
 }
