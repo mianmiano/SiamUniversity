@@ -146,5 +146,6 @@
     <string name="academics_3_8_itemtitle">Faculty of Law</string>
     <string name="academics_3_9_itemtitle">Faculty of Science</string>
     <string name="academics_3_10_itemtitle">Faculty of Medicine</string>
+    <string name="title_button">BACK</string>
 
 </resources>
