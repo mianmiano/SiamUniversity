@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.pein.siamuniversity">
+
     <uses-permission android:name="android.permission.INTERNET" />
 
     <application
@@ -9,11 +10,9 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-
-
         <activity
             android:name=".MainActivity"
-            android:theme="@style/AppTheme"></activity>
+            android:theme="@style/AppTheme" />
         <activity android:name=".AboutusActivity" />
         <activity android:name=".NewsActivity" />
 
@@ -28,12 +27,12 @@
         <activity
             android:name=".WelcomeActivity"
             android:theme="@style/AppTheme">
-        <intent-filter>
-            <action android:name="android.intent.action.MAIN" />
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
-            <category android:name="android.intent.category.LAUNCHER" />
-        </intent-filter></activity>
-
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
         <activity android:name=".Aboutus_HistoryActivity" />
         <activity android:name=".Aboutus_MessageFromThePresidentActivity" />
         <activity android:name=".Aboutus_MissionAndVisionActivity" />
@@ -59,22 +58,18 @@
             android:name=".Gallery_LibraryActivity"
             android:label="@string/title_activity_gallery__library"
             android:theme="@style/AppTheme" />
-
         <activity android:name=".Gallery_ComputerLabActivity" />
         <activity android:name=".Gallery_FinancialLabActivity" />
         <activity android:name=".Gallery_MaruaryLibraryActivity" />
         <activity android:name=".Gallery_CampusActivity" />
         <activity android:name=".Gallery_SportsComplexActivity" />
         <activity android:name=".Gallery_FoodCourtActivity" />
-        <activity android:name=".Gallery_StudentActivityActivity">
-
-
-        </activity>
+        <activity android:name=".Gallery_StudentActivityActivity" />
         <activity android:name=".CalenderActivity" />
         <activity android:name=".AwardsActivity" />
-        <activity android:name=".ContactUsActivity">
-
-        </activity>
+        <activity android:name=".ContactUsActivity" />
+        <activity android:name=".AcademicsActivity" />
+        <activity android:name=".Academics_BBAActivity"></activity>
     </application>
 
 </manifest>

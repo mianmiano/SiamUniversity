@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -8,7 +8,7 @@
     android:paddingTop="15dp"
     tools:context="com.example.pein.siamuniversity.Aboutus_EnglishLanguageCenterActivity"
     android:orientation="vertical"
-    android:weightSum="1">
+    android:scrollbars="vertical">
 
     <TextView
         android:id="@+id/textView_aboutUs_englishLanguageCenter"
@@ -19,4 +19,4 @@
         android:text="@string/aboutus_englishlanguagecenter_string"
         android:scrollIndicators="right" />
 
-</LinearLayout>
+</ScrollView>

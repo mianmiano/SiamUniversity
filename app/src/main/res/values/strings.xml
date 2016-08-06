@@ -125,5 +125,26 @@
         "when a user tries to pick up one of cards.\n\n"
     </string>
     <string name="action_settings">Settings</string>
+    <string name="academics_bachelors_grouptitle">Bachelors(International)</string>
+    <string name="academics_masters_grouptitle">Masters(International)</string>
+    <string name="academics_doctor_grouptitle">Doctor(International)</string>
+    <string name="academics_thaiprograms_grouptitle">Thai Programs</string>
+    <string name="academics_0_0_itemtitle">Bachelors of Business Administration</string>
+    <string name="academics_0_1_itemtitle"><![CDATA[Bachelors of Hotel & Tourism]]></string>
+    <string name="academics_1_0_itemtitle">Masters in Business Administration</string>
+    <string name="academics_1_1_itemtitle"><![CDATA[Master of Human Rights & Peace Studies]]></string>
+    <string name="academics_1_2_itemtitle">中华国际学院</string>
+    <string name="academics_2_0_itemtitle">Doctor in Information Technology</string>
+    <string name="academics_3_0_itemtitle">Faculty of Hotel and Tourism</string>
+    <string name="academics_3_1_itemtitle">Faculty of Bunsiness Administration</string>
+    <string name="academics_3_2_itemtitle">Faculty of Communication Arts</string>
+    <string name="academics_3_3_itemtitle">Faculty of Engineering</string>
+    <string name="academics_3_4_itemtitle">Faculty of Liberal Arts</string>
+    <string name="academics_3_5_itemtitle">Faculty of Information Technology</string>
+    <string name="academics_3_6_itemtitle">Faculty of Nursing</string>
+    <string name="academics_3_7_itemtitle">Faculty of Pharmacy</string>
+    <string name="academics_3_8_itemtitle">Faculty of Law</string>
+    <string name="academics_3_9_itemtitle">Faculty of Science</string>
+    <string name="academics_3_10_itemtitle">Faculty of Medicine</string>
 
 </resources>

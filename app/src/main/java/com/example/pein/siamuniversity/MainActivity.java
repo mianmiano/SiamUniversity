@@ -69,8 +69,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 MainActivity.this.startActivity(intent);
                 break;
             case R.id.button_academics:
-                tst = Toast.makeText(this, "22222222", Toast.LENGTH_SHORT);
-                tst.show();
+                intent = new Intent();
+                intent.setClass(MainActivity.this, AcademicsActivity.class);
+                MainActivity.this.startActivity(intent);
                 break;
             case R.id.button_admission:
                 intent = new Intent();
