@@ -1,118 +1,242 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    tools:context="com.example.pein.siamuniversity.MainActivity">
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:paddingBottom="@dimen/activity_vertical_margin"
+            tools:context="com.example.pein.siamuniversity.MainActivity"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+    <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="151dp"
+                android:id="@+id/imageView"
+                android:adjustViewBounds="true"
+                android:src="@drawable/toppicture"
+                android:scaleType="fitXY" />
 
 
-    <ScrollView
-        android:id="@+id/scrollView"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        >
+
+        <ScrollView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content" ></ScrollView>
 
     <LinearLayout
-        android:orientation="vertical"
-        android:layout_width="match_parent"
+
         android:layout_height="match_parent"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentStart="true">
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_below="@+id/imageView"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true">
 
-
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/main_aboutUs"
-            android:id="@+id/button_aboutUs" />
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/main_academics"
-            android:id="@+id/button_academics" />
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/main_admission"
-            android:id="@+id/button_admission" />
-        <Button
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:paddingTop="5dp"
         android:layout_height="wrap_content"
-        android:text="@string/main_studentVoice"
-        android:id="@+id/button_studentVoice" />
-        <Button
-            android:layout_width="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="horizontal">
+
+        <TableLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:paddingRight="5dp"
+            >
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/button_aboutUs"
+                android:background="@drawable/about" />
+        </TableLayout>
+
+        <TableLayout
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:text="@string/main_news"
-            android:id="@+id/button_news" />
-        <Button
-            android:layout_width="wrap_content"
+            android:layout_weight="2"
+            android:paddingRight="5dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="fill_vertical"
+                android:paddingBottom="5dp"
+                android:orientation="horizontal">
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:id="@+id/button_academics"
+                    android:layout_marginRight="5dp"
+                    android:background="@drawable/academics" />
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:id="@+id/button_suStaffs"
+                    android:background="@drawable/staffs" />
+
+            </LinearLayout>
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:id="@+id/button_maps"
+                android:background="@drawable/map" />
+
+        </TableLayout>
+
+        <TableLayout
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:text="@string/main_sports"
-            android:id="@+id/button_sports" />
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/main_gallery"
-            android:id="@+id/button_gallery" />
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/main_socialMedia"
-            android:id="@+id/button_socialMedia" />
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/main_library"
-            android:id="@+id/button_library" />
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/main_studentLogin"
-            android:id="@+id/button_studentLogin" />
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/main_calendar"
-            android:id="@+id/button_calendar" />
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/main_video"
-            android:id="@+id/button_video" />
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/main_suStaffs"
-            android:id="@+id/button_suStaffs" />
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/main_award"
-            android:id="@+id/button_awards" />
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/main_map"
-            android:id="@+id/button_maps" />
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/main_contactUs"
-            android:id="@+id/button_contactUs" />
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/main_school"
-            android:id="@+id/button_school" />
+            android:layout_weight="1" >>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/button_studentVoice"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/student" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/button_awards"
+
+                android:background="@drawable/awards" />
+        </TableLayout>
 
     </LinearLayout>
-    </ScrollView>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:paddingTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginRight="5dp"
+            android:id="@+id/button_gallery"
+            android:background="@drawable/gallery" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/button_sports"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/sports" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:id="@+id/button_school"
+            android:background="@drawable/college" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:paddingTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:layout_marginRight="5dp"
+            android:id="@+id/button_news"
+            android:background="@drawable/news" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/button_admission"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/admission" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/button_socialMedia"
+            android:background="@drawable/social" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:paddingTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginRight="5dp"
+                    android:id="@+id/button_library"
+                    android:background="@drawable/library" />
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginRight="5dp"
+                    android:id="@+id/button_calendar"
+                    android:background="@drawable/calendar" />
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginRight="5dp"
+                    android:id="@+id/button_video"
+                    android:background="@drawable/video" />
+            </LinearLayout>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:id="@+id/button_studentLogin"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/login" />
+        </TableLayout>
+
+        <TableLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+
+            >
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/button_contactUs"
+                android:background="@drawable/contact" />
+        </TableLayout>
+    </LinearLayout>
+    </LinearLayout>
 
 
-</RelativeLayout>
+</LinearLayout>
+

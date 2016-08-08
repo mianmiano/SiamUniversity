@@ -2,8 +2,7 @@
 <resources>
 
 
-        <string-array name="languages">
-
+        <string-array name="languages" >
             <item>身份证</item>
             <item>护照</item>
         </string-array>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -7,49 +7,103 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/school"
     tools:context="com.example.pein.siamuniversity.SchoolActivity"
     android:orientation="vertical">
 
-    <TextView
+    <LinearLayout
+        android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="录取查询"
-        android:id="@+id/textView2"
-        android:gravity="center" />
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="87dp"
+        android:id="@+id/linearLayout3">
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceMedium"
-        android:text="Admission query"
-        android:gravity="center"
-        android:id="@+id/textView3" />
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linearLayout2"
+            android:layout_alignBottom="@+id/editText_name"
+            android:layout_alignParentStart="true">
 
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="请输入姓名"
-        android:id="@+id/editText_name" />
+            <TextView
+                android:layout_width="83dp"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="  姓名  "
+                android:id="@+id/textView" />
 
-    <Spinner
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/spinner"
-        android:entries="@array/languages" />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
 
-    <EditText
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/editText_id"
-        android:hint="身份证号和护照号至少需要一项"
-         />
+                android:id="@+id/editText_name"
+                android:background="@android:drawable/editbox_background_normal"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                 />
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="登陆/LOGIN"
-        android:id="@+id/btn_schollLogin"
-        android:layout_gravity="center_horizontal" />
+        </LinearLayout>
 
-</LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linearLayout"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"
+            >
+
+            <Spinner
+                android:textColor="#ffff"
+                android:layout_width="83dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/spinner"
+                android:entries="@array/languages"
+                android:layout_below="@+id/linearLayout2"
+                android:layout_alignParentStart="true" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/editText_id"
+                android:layout_marginLeft="15dp"
+                android:background="@android:drawable/editbox_background"
+                android:hint="请选择身份证或护照" />
+
+        </LinearLayout>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_schollLogin"
+            android:layout_marginBottom="10dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_below="@+id/linearLayout2"
+            android:layout_centerHorizontal="true"
+            android:text="查询/SEARCH"
+            android:textColor="#FFFF" />
+
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="130dp"
+            android:id="@+id/scrollView2" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="130dp"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="暹罗大学中华国际学院（International Sino College of Siam University）其前身为泰国中国留学中心。作为全球中文母语区外唯一采用中英文教育体系培育和储备创新型高级管理人才的学院，长期以来站稳东南亚，服务全球华人华侨，培养了众多华人企业家、银行家、政治家，以及跨国公司CEO，他们遍及马来西亚、菲律宾、柬埔寨、台湾、香港、缅甸和中国大陆，构成了东南亚各国华人经济的精英。\n\n暹罗大学中华国际学院愿以全球化的视野和准确的判断力，在全球范围内整合最优秀的中文教育资源，汇聚最优秀的华人华裔、大师学者、科学家、艺术家、文学家、教育家，以中文为媒介，立言、著书、讲学，育人，致力于培养独立自主，积极创新的复合型人才，立志将暹罗大学中华国际学院建成为学术自由、氛围民主的全球华人青年的精神家园！"
+                android:id="@+id/textView2"
+                android:textColor="#ffff"
+                android:layout_alignTop="@+id/linearLayout3"
+                android:layout_centerHorizontal="true" />
+        </ScrollView>
+
+    </LinearLayout>
+
+</RelativeLayout>
