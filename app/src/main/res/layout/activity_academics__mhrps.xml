@@ -6,13 +6,13 @@
     android:layout_height="match_parent"
     android:paddingLeft="10dp"
     android:paddingRight="10dp"
-    tools:context="com.example.pein.siamuniversity.Academics_BBAActivity"
+    tools:context="com.example.pein.siamuniversity.Academics_MHRPSActivity"
     android:orientation="vertical">
 
 
     <ListView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/listView_academicsBBA"
+        android:id="@+id/listView_academicsMHRPS"
         android:layout_gravity="center_horizontal" />
 </LinearLayout>

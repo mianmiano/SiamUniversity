@@ -31,73 +31,73 @@ public class AboutusActivity extends AppCompatActivity implements View.OnClickLi
 
         HashMap <String, Object> itemMap =new HashMap <String,Object>();
         itemMap.put("itemImage1",R.drawable.aboutus1);
-        itemMap.put("itemString","History of Siam University" );
+        itemMap.put("itemString",getApplication().getString(R.string.aboutus_HistoryofSiamUniversity_itemtitle) );
         itemMap.put("itemImage2",R.drawable.aboutus2);
         listItem.add(itemMap);
 
         itemMap =new HashMap <String,Object>();
         itemMap.put("itemImage1",R.drawable.aboutus1);
-        itemMap.put("itemString","Message From the President" );
+        itemMap.put("itemString",getApplication().getString(R.string.aboutus_MessagefromthePresident_itemtitle) );
         itemMap.put("itemImage2",R.drawable.aboutus2);
         listItem.add(itemMap);
 
         itemMap =new HashMap <String,Object>();
         itemMap.put("itemImage1",R.drawable.aboutus1);
-        itemMap.put("itemString","Mission&Vision" );
+        itemMap.put("itemString",getApplication().getString(R.string.aboutus_MissionVision_itemtitle) );
         itemMap.put("itemImage2",R.drawable.aboutus2);
         listItem.add(itemMap);
 
         itemMap =new HashMap <String,Object>();
         itemMap.put("itemImage1",R.drawable.aboutus1);
-        itemMap.put("itemString","Strategis" );
+        itemMap.put("itemString",getApplication().getString(R.string.aboutus_Strategies_itemtitle) );
         itemMap.put("itemImage2",R.drawable.aboutus2);
         listItem.add(itemMap);
 
         itemMap =new HashMap <String,Object>();
         itemMap.put("itemImage1",R.drawable.aboutus1);
-        itemMap.put("itemString","International Colleborations" );
+        itemMap.put("itemString",getApplication().getString(R.string.aboutus_InternationalCollebotations_itemtitle) );
         itemMap.put("itemImage2",R.drawable.aboutus2);
         listItem.add(itemMap);
 
         itemMap =new HashMap <String,Object>();
         itemMap.put("itemImage1",R.drawable.aboutus1);
-        itemMap.put("itemString","Sdudent Counduct Policy" );
+        itemMap.put("itemString",getApplication().getString(R.string.aboutus_StudentConductPolicy_itemtitle) );
         itemMap.put("itemImage2",R.drawable.aboutus2);
         listItem.add(itemMap);
 
         itemMap =new HashMap <String,Object>();
         itemMap.put("itemImage1",R.drawable.aboutus1);
-        itemMap.put("itemString","Grading System" );
+        itemMap.put("itemString",getApplication().getString(R.string.aboutus_GradingSystem_itemtitle) );
         itemMap.put("itemImage2",R.drawable.aboutus2);
         listItem.add(itemMap);
 
         itemMap =new HashMap <String,Object>();
         itemMap.put("itemImage1",R.drawable.aboutus1);
-        itemMap.put("itemString","Honor System" );
+        itemMap.put("itemString",getApplication().getString(R.string.aboutus_HonorSystem_itemtitle) );
         itemMap.put("itemImage2",R.drawable.aboutus2);
         listItem.add(itemMap);
 
         itemMap =new HashMap <String,Object>();
         itemMap.put("itemImage1",R.drawable.aboutus1);
-        itemMap.put("itemString","International Student Center" );
+        itemMap.put("itemString",getApplication().getString(R.string.aboutus_InternationalStudentCenter_itemtitle) );
         itemMap.put("itemImage2",R.drawable.aboutus2);
         listItem.add(itemMap);
 
         itemMap =new HashMap <String,Object>();
         itemMap.put("itemImage1",R.drawable.aboutus1);
-        itemMap.put("itemString","English Language Center" );
+        itemMap.put("itemString",getApplication().getString(R.string.aboutus_EnglishLanguageCenter_itemtitle) );
         itemMap.put("itemImage2",R.drawable.aboutus2);
         listItem.add(itemMap);
 
         itemMap =new HashMap <String,Object>();
         itemMap.put("itemImage1",R.drawable.aboutus1);
-        itemMap.put("itemString","Internship & career placement" );
+        itemMap.put("itemString",getApplication().getString(R.string.aboutus_InternshipCareerplacement_itemtitle) );
         itemMap.put("itemImage2",R.drawable.aboutus2);
         listItem.add(itemMap);
 
         itemMap =new HashMap <String,Object>();
         itemMap.put("itemImage1",R.drawable.aboutus1);
-        itemMap.put("itemString","International Accrediation" );
+        itemMap.put("itemString",getApplication().getString(R.string.aboutus_InetrnationalAccrediation_itemtitle) );
         itemMap.put("itemImage2",R.drawable.aboutus2);
         listItem.add(itemMap);
 

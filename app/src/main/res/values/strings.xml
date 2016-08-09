@@ -214,106 +214,164 @@ OTHERS\n\n
 \t\t•	Import/Export Specialist\n\n
 \t\t•	Sales Executive and Sales Marketer\n\n
 </string>
-    <string name="academics_bba_4_string"><![CDATA[Note: Please select the curriculum from the Academic Year in which you started (or will be starting) your studies. An Academic Year begins in August and ends in July of the following year.\nCourses:\nThe Course consists of:\nGeneral Courses: 15 Courses\nThe Core Courses: 15 Courses\nMajor Required Courses: 10 Courses\nMajor Elective Courses: 5 Courses\nFree Elective Courses: 2 Courses\nTotal: 47 Courses \nGeneral Education (3 credits each subject)\nGS.121 Introduction to Sociology\nGS.123 Society & Law\nGS.122 Society & Government\nGS.111 Thai Civilization\nGS.112 Fundamentals of Philosophy & Religion\nGS.113General Psychology\nGS.104 Basic Mathematical Principle\nIBS.101 Software Package and Internet in Business\nIBS.200 Introduction to Computer\nMajor Elective Courses (Languages) (2 credits each subject)\nEN.101 English I EN.102 English II EN.203 English III EN.204 English IV EN.305 English V EN.306 English VI\nCH.101 Chinese I CH.102 Chinese II CH.203 Chinese III CH.204 Chinese IV CH.305 Chinese V CH.306 Chinese VI\nJA.101 Japanese I\nJA.102 Japanese II\nJA.203 Japanese III\nJA.204 Japanese IV\nJA.305 Japanese V\nJA.306 Japanese VI\n \nCore Courses (3 credits each subject)\nIBE.202 Macro Economics\nIBM.202 Principles of Marketing\nIBA.101 Accounting I\nIBM.402 Business Policy\nIBM.401 Quantitative Analysis in Business\nIBM.302 Production & Operations Management\nIBL.309 Business Law 3 IBA.303 Managerial Accounting\nIBS.301 Internet & Package Program in Business\nIBM.209 Statistical Analysis in Business\nIBM.203 Principles of Statistics\nIBM.201 Organization & Management 3 IBE.201 Micro Economics\nIBA.102 Accounting II\nIBF.201 Business Finance\n \nMajor Required Courses (3 credits each subject)\nIBE.303 International Economics\nIBA.404 International Accounting & Taxation\nIBL.404 International Trade Law IBM.406 Comparative Management of Multinational Enterprise\nIBM.412 International Trade Operations\nIBM.411 International Marketing\nIBM.407 Seminar on International Business\nIBM.404 International Transportation of Goods\nIBM.403 Management of International Business\nIBF.401 International Finance & Banking\n \nMajor Elective Courses (3 credits each subject)\nIBM.205 Global Management Information System\nIBM.208 International Business Research\nIBM.307 Human Resource Management\nIBM.309 Cross Cultural Management\nIBE.304 International Monetary Economics\nIBM.210 International Negotiation\nIBF.403 International Portfolio Management\nIBM.409 Contemporary International Business\nIBM.410 Independent Project\nIBF.405 Advanced International Finance\nFree Elective Courses (3 credits each subject)\nIBM.100 Business Vocabulary (Jargon)\nIBM.206 Purchasing\nIBM.207 Advertising\nIBM.308 Principles of Hotel Management and Tourism\nIBM.405 Specialty Recruitment of Personnel\n
+    <string name="academics_bba_4_string"><![CDATA[Course Name and Code First Year: First Semester (August-December), (17 Credits).\n(GS 121) Introduction to Sociology\n(GS 111) Thai Civilization\n(GS 104) Basic Mathematical Principles\n(IBS 101) Life and Environment\n(EN 101) English I (or other languages)\n(IBA 101) Principles of Accounting I\nCourse Name and Code\nFirst Year: Second Semester (January-April), (17 Credits)\n(GS 122) Society and Government\n(GS 112) Fundamentals of Philosophy and Religion\n(EN 102) English II (or other languages)\n(GS 113) General Psychology\n(GS 123) Society and Law\n(IBA 102) Principles of Accounting II\nCourse Name and Code Second Year: First Semester (August-December), (17 Credits).\n(EN 203) English III (or other languages)\n(IBE 201) Micro Economics\n(IBM 202) Principles of Marketing\n(IBS 200) Introduction to Computer\n(IBM 201) Organization and Management\n(IBM 203) Principles of Statistics\nCourse Name and Code\nSecond Year: Second Semester (January-April), (14 Credits).\n(EN 204) English IV (or other languages)\n(IBE 202) Macro Economics\n(IBM 209) Statistical Analysis in Business\n(IBF 201) Business Finance\nElective\nElective\nCourse Name and Code\nThird Year: First Semester (August-December), (17 Credits).\n(IBE 303) International Economics\n(EN 305) English V (or other languages)\n(IBA 303) Managerial Accounting\n(IBS 301) Internet and Package Program in business\nElective\nFree Elective\nCourse Name and Code\nThird Year: Second Semester (January-April), (14 Credits). \n(EN 306) English VI (or other languages)\n(IBM 302) Production and Operations Management\n(IBL 309) Business Law Elective Free Elective\nCourse Name and Code\nFourth Year: First Semester (August-December), (17 Credits).\n(IBM 401) Quantitative Analysis in Business\n(IBF 401) International Finance   & Banking (IBM 404) International of Goods Transportation (IBM 403) Management of International Business (IBL 404) International Trade Law (IBA 404) International Accounting & Taxation\nCourse Name and Code Fourth Year: Second Semester (January-April), (18 Credits).\n(IBM 402) Business Policy (IBM 406) Comparative Management of Multinational Enterprise (IBM 421) International Trade Operations (IBM 407) Seminar on International Business (IBM 411) International Marketing Elective\nGrand Total 135 Credits\nCourse Name and Code Summer Session I (April-June), (6 Credits)\nElective Free Elective\nCourse Name and Code Summer Session II (June-August), (6 Credits)\nElective Free Elective\n
 ]]></string>
-    <string name="academics_bba_5_string"><![CDATA[Note: Please select the curriculum from the Academic Year in which you started (or will be starting) your studies. An Academic Year begins in August and ends in July of the following year.
-Courses:
-The Course consists of:
-General Courses: 15 Courses
-The Core Courses: 15 Courses
-Major Required Courses: 10 Courses
-Major Elective Courses: 5 Courses
-Free Elective Courses: 2 Courses
-Total: 47 Courses
-General Education (3 credits each subject)
-GS.121 Introduction to Sociology
-GS.123 Society & Law
-GS.122 Society & Government
-GS.111 Thai Civilization
-GS.112 Fundamentals of Philosophy & Religion
-GS.113 General Psychology
-GS.104 Basic Mathematical Principle
-IBS.101 Software Package and Internet in Business
-IBS.200 Introduction to Computer
-Major Elective Courses (Languages) (2 credits each subject)
-EN.101 English I EN.102 English II EN.203 English III EN.204 English IV EN.305 English V EN.306 English VI
-CH.101 Chinese I CH.102 Chinese II CH.203 Chinese III CH.204 Chinese IV CH.305 Chinese V CH.306 Chinese VI
-JA.101 Japanese I
-JA.102 Japanese II
-JA.203 Japanese III
-JA.204 Japanese IV
-JA.305 Japanese V
-JA.306 Japanese VI
-
-Core Courses (3 credits each subject)
-IBE.202 Macro Economics
-IBM.202 Principles of Marketing
-IBA.101 Accounting I
-IBM.402 Business Policy
-IBM.401 Quantitative Analysis in Business
-IBM.302 Production & Operations Management
-IBL.309 Business Law 3 IBA.303 Managerial Accounting
-IBS.301 Internet & Package Program in Business
-IBM.209 Statistical Analysis in Business
-IBM.203 Principles of Statistics
-IBM.201 Organization & Management 3 IBE.201 Micro Economics
-IBA.102 Accounting II
-IBF.201 Business Finance
-
-Major Required Courses (3 credits each subject)
-IBE.303 International Economics
-IBA.404 International Accounting & Taxation
-IBL.404 International Trade Law IBM.406 Comparative Management of Multinational Enterprise
-IBM.412 International Trade Operations
-IBM.411 International Marketing
-IBM.407 Seminar on International Business
-IBM.404 International Transportation of Goods
-IBM.403 Management of International Business
-IBF.401 International Finance & Banking
-
-Major Elective Courses (3 credits each subject)
- IBM.205 Global Management Information System
-IBM.208 International Business Research
-IBM.307 Human Resource Management
-IBM.309 Cross Cultural Management
-IBE.304 International Monetary Economics
-IBM.210 International Negotiation
-IBF.403 International Portfolio Management
-IBM.409 Contemporary International Business
-IBM.410 Independent Project
-IBF.405 Advanced International Finance
-Free Elective Courses (3 credits each subject)
-IBM.100 Business Vocabulary (Jargon)
-IBM.206 Purchasing
-IBM.207 Advertising
-IBM.308 Principles of Hotel Management and Tourism
-IBM.405 Specialty Recruitment of Personnel
+    <string name="academics_bba_5_string"><![CDATA[Note: Please select the curriculum from the Academic Year in which you started (or will be starting) your studies. An Academic Year begins in August and ends in July of the following year.\n
+Courses:\n
+The Course consists of:\n
+General Courses: 15 Courses\n
+The Core Courses: 15 Courses\n
+Major Required Courses: 10 Courses\n
+Major Elective Courses: 5 Courses\n
+Free Elective Courses: 2 Courses\n
+Total: 47 Courses \n
+General Education (3 credits each subject)\n
+GS.121 Introduction to Sociology\n
+GS.123 Society & Law\n
+GS.122 Society & Government\n
+GS.111 Thai Civilization\n
+GS.112 Fundamentals of Philosophy & Religion\n
+GS.113General Psychology\n
+GS.104 Basic Mathematical Principle\n
+IBS.101 Software Package and Internet in Business\n
+IBS.200 Introduction to Computer\n
+Major Elective Courses (Languages) (2 credits each subject)\n
+EN.101 English I EN.102 English II EN.203 English III EN.204 English IV EN.305 English V EN.306 English VI\n
+CH.101 Chinese I CH.102 Chinese II CH.203 Chinese III CH.204 Chinese IV CH.305 Chinese V CH.306 Chinese VI\n
+JA.101 Japanese I\n
+JA.102 Japanese II\n
+JA.203 Japanese III\n
+JA.204 Japanese IV\n
+JA.305 Japanese V\n
+JA.306 Japanese VI\n
+ \n
+Core Courses (3 credits each subject)\n
+IBE.202 Macro Economics\n
+IBM.202 Principles of Marketing\n
+IBA.101 Accounting I\n
+IBM.402 Business Policy\n
+IBM.401 Quantitative Analysis in Business\n
+IBM.302 Production & Operations Management\n
+IBL.309 Business Law 3 IBA.303 Managerial Accounting\n
+IBS.301 Internet & Package Program in Business\n
+IBM.209 Statistical Analysis in Business\n
+IBM.203 Principles of Statistics\n
+IBM.201 Organization & Management 3 IBE.201 Micro Economics\n
+IBA.102 Accounting II\n
+IBF.201 Business Finance\n
+ \n
+Major Required Courses (3 credits each subject)\n
+IBE.303 International Economics\n
+IBA.404 International Accounting & Taxation\n
+IBL.404 International Trade Law IBM.406 Comparative Management of Multinational Enterprise\n
+IBM.412 International Trade Operations\n
+IBM.411 International Marketing\n
+IBM.407 Seminar on International Business\n
+IBM.404 International Transportation of Goods\n
+IBM.403 Management of International Business\n
+IBF.401 International Finance & Banking\n
+ \n
+Major Elective Courses (3 credits each subject)\n
+IBM.205 Global Management Information System\n
+IBM.208 International Business Research\n
+IBM.307 Human Resource Management\n
+IBM.309 Cross Cultural Management\n
+IBE.304 International Monetary Economics\n
+IBM.210 International Negotiation\n
+IBF.403 International Portfolio Management\n
+IBM.409 Contemporary International Business\n
+IBM.410 Independent Project\n
+IBF.405 Advanced International Finance\n
+Free Elective Courses (3 credits each subject)\n
+IBM.100 Business Vocabulary (Jargon)\n
+IBM.206 Purchasing\n
+IBM.207 Advertising\n
+IBM.308 Principles of Hotel Management and Tourism\n
+IBM.405 Specialty Recruitment of Personnel\n
 ]]></string>
-    <string name="academics_bba_6_string">Entrance Requirements •	Grade 12 transcript for undergraduate applicants or equipment as well as transcript of academic records. •	Two copies of International passport •	A non-criminal record •	Statement of purpose •	2 letters of recommendation (from high school teachers + professor or alumni of SIAM) •	Results of TOEFL, TOEIC or IELTS, if available •	3 recent photographs (3x4cm) •	Application fees Documents and Application 1.	original and photocopy of M6 certificate, high school diploma or its equivalent 2.	a copy of the Thai citizen identification card and household registration or copy of passport 3.	four 3×4 cm. color photographs Intensive English Courses The applicants who pass the entrance examination in English are not required to take intensive English classes.  For those who fail in the entrance examination, Siam University organizes two sixty-hour intensive courses in English.</string>
-    <string name="academics_bba_8_string">Program Dean: Mr. Rengson Muanchontham  Telephone: (66)28678000  E-mail: rengson@siam.edu  siamuniversitybkk@gmail.com  Web site: http://www.inter.siam.edu Front Counter Hours: Mon – Fri (8:30a.m. – 4:30pm)</string>
-    <string name="academics_bba_7_string">Dean:
-Mr. Rengson
-Mualchontham
-Lecturers:
-Prof. J. Fred Miller 
-Mr. Paul Henry 
-Mr. David Seale 
-Mr. Kevin Tylor
-Special Lecturers:
-Prof. Dr. Wanchai Rijirawanich 
-Dr. Tanakorn Limsarum 
-Dr. Pichit 
-Dr. Chalermkiat
-Dr. Toumo Tapani Ravtakivi 
-Mr. Rathavoot 
-Mr. Pariwat 
-Mr. Pithan 
-Mrs. Yaowares 
-Mr. Kriengsak
+    <string name="academics_bba_6_string">Entrance Requirements\n
+•\tGrade 12 transcript for undergraduate applicants or equipment as well as transcript of academic records.\n
+•\tTwo copies of International passport\n
+•\tA non-criminal record\n
+•\tStatement of purpose\n
+•\t2 letters of recommendation (from high school teachers + professor or alumni of SIAM)\n
+•\tResults of TOEFL, TOEIC or IELTS, if available\n
+•\t3 recent photographs (3x4cm)\n
+•\tApplication fees\n
+Documents and Application\n
+1.\toriginal and photocopy of M6 certificate, high school diploma or its equivalent\n
+2.\ta copy of the Thai citizen identification card and household registration or copy of passport\n
+3.\tfour 3×4 cm. color photographs\n
+Intensive English Courses\n
+The applicants who pass the entrance examination in English are not required to take intensive English classes.  For those who fail in the entrance examination, Siam University organizes two sixty-hour intensive courses in English.\n
 </string>
-    <string name="academics_bht_1_string">Ideally, our international B.B.A. Program in Hotel and Tourism Management can be completed by studying full-time a four-year academic period. During the first two years of study, international students will fulfill their general education, information technology (IT), and language degree requirements. During the third and fourth years of study, international students complete their core coursework and electives as well as obtain professional work experience. In total, international students must complete 132 credits of coursework to graduate. The goals of Business Administration Programs in Service Industry management •	To maintain our unique international research, teaching mode for the success of our students; •	To increase students’ language proficiency and communication skills; •	Prepare students to pursue graduate studies in the field of Hospitality Management and Business Administration; •	To train our students to become successful leaders in their various careers; •	Our students have been successful in their respective careers. We aim to maintain that status to generate more successful alumni in this department; •	To encourage discipline amongst students and to understand the services in hospitality management and; •	Provide students with technical and management skills necessary for supervisory and management positions in the hospitality industry.</string>
-    <string name="academics_bht_2_string">Hotel and tourism management has been one of the most diverse, challenging, largest, important, and fastest-growing industries in the world today. It has derived its reputation on the developments of tourism and rampant movements of people from place to place. The Department of Hotel and Tourism Management is so large that it offers different varieties of culture, administration and HR under business management to provide students with the skills they will need to compete successfully in the industry. What is Hotel and Tourism Management? Hotel and Tourism is a business study that comprises a wide range of hospitality management including rooms division, reception, restaurant operations, and customer service and satisfaction. Students who study in this program engage in interactions with people. Program Code: BBA (Hotel and Tourism Management) Fees: Program Duration: 8 Semesters (4 Years) Certificate Awarded: Siam University Bachelor of Business Administration (Hotel and Tourism Management)</string>
-    <string name="academics_bht_3_string">Thailand as One of the leading tourist destinations in South-East Asia has capitalized on its’ strengths in Tourism to offer this program at its best. Students are introduced to this program and will be prepared to enjoy a successful career in the Tourism industry. In the course of this program, students are required to participate in different activities supported by their selected University to engage them in real-life Hospitality situations that will enable them aid transition from the classroom to the boardroom. Such activities can be hotel restaurant displays, participating fully in tourism activities, attending to meetings, and projects special events and shows for the industry. This degree program does not only prepare students for management positions in several industries. But, it also expands their knowledge to a more advanced level in order to enable them develop new concepts in advertising and marketing; lead in tourism initiatives and conferences. Why you should study Hotel and Tourism management and what you will gain? •	It offers various different career options and opportunities; •	You will gain essential customer service and a strong sense of professionalism; •	You will get to know the relationship with other tourism industries and how they function and, also establish a link between them; •	You will have a greater chance to be internationally exposed and intermingle with different tourism sectors both home and abroad; •	You are rest assured to acquire a distinctive knowledge in this program, more especially management roles; •	You will develop skills in critical thinking, effective communication; •	You will gain a lot of knowledge in this program studying in our University, as all courses are taught by lecturers who possesses excellent academic credentials with a strong professional background in this particular field; What Can You Do With a Degree in International Business? •	Chef; •	Marketing Executive; •	Receptionist and Hotel Manager; •	Regional Tourism Associations •	Government Tourism Commissions; •	Travel Agency Center; •	Tour Operator; •	Airlines – Air host/hostess, steward/stewardess, and Cruise lines; •	Hotel Events Coordinator.</string>
+    <string name="academics_bba_8_string">Program Dean: Mr. Rengson Muanchontham \n
+Telephone: (66)28678000 \n
+E-mail: rengson@siam.edu \n
+siamuniversitybkk@gmail.com \n
+Web site: http://www.inter.siam.edu\n
+Front Counter Hours: Mon – Fri (8:30a.m. – 4:30pm)\n
+</string>
+    <string name="academics_bba_7_string">Dean:\n
+Mr. Rengson \n
+Mualchontham\n
+Lecturers:\n
+Prof. J. Fred Miller \n
+Mr. Paul Henry \n
+Mr. David Seale \n
+Mr. Kevin Tylor\n
+Special Lecturers:\n
+Prof. Dr. Wanchai Rijirawanich \n
+Dr. Tanakorn Limsarum \n
+Dr. Pichit \n
+Dr. Chalermkiat\n
+Dr. Toumo Tapani Ravtakivi \n
+Mr. Rathavoot \n
+Mr. Pariwat \n
+Mr. Pithan \n
+Mrs. Yaowares \n
+Mr. Kriengsak\n
+</string>
+    <string name="academics_bht_1_string">Ideally, our international B.B.A. Program in Hotel and Tourism Management can be completed by studying full-time a four-year academic period. During the first two years of study, international students will fulfill their general education, information technology (IT), and language degree requirements. During the third and fourth years of study, international students complete their core coursework and electives as well as obtain professional work experience. In total, international students must complete 132 credits of coursework to graduate.\n
+The goals of Business Administration Programs in Service Industry management\n
+•\tTo maintain our unique international research, teaching mode for the success of our students;\n
+•\tTo increase students’ language proficiency and communication skills;\n
+•\tPrepare students to pursue graduate studies in the field of Hospitality Management and Business Administration;\n
+•\tTo train our students to become successful leaders in their various careers;\n
+•\tOur students have been successful in their respective careers. We aim to maintain that status to generate more successful alumni in this department;\n
+•\tTo encourage discipline amongst students and to understand the services in hospitality management and;\n
+•\tProvide students with technical and management skills necessary for supervisory and management positions in the hospitality industry.\n
+</string>
+    <string name="academics_bht_2_string">Hotel and tourism management has been one of the most diverse, challenging, largest, important, and fastest-growing industries in the world today. It has derived its reputation on the developments of tourism and rampant movements of people from place to place.\n
+The Department of Hotel and Tourism Management is so large that it offers different varieties of culture, administration and HR under business management to provide students with the skills they will need to compete successfully in the industry.\n
+What is Hotel and Tourism Management?\n
+Hotel and Tourism is a business study that comprises a wide range of hospitality management including rooms division, reception, restaurant operations, and customer service and satisfaction. Students who study in this program engage in interactions with people.\n
+Program Code: BBA (Hotel and Tourism Management)\n
+Fees:\n
+Program Duration: 8 Semesters (4 Years)\n
+Certificate Awarded: Siam University Bachelor of Business Administration (Hotel and Tourism Management)\n
+</string>
+    <string name="academics_bht_3_string">Thailand as One of the leading tourist destinations in South-East Asia has capitalized on its’ strengths in Tourism to offer this program at its best. Students are introduced to this program and will be prepared to enjoy a successful career in the Tourism industry. In the course of this program, students are required to participate in different activities supported by their selected University to engage them in real-life Hospitality situations that will enable them aid transition from the classroom to the boardroom. Such activities can be hotel restaurant displays, participating fully in tourism activities, attending to meetings, and projects special events and shows for the industry.\n
+This degree program does not only prepare students for management positions in several industries. But, it also expands their knowledge to a more advanced level in order to enable them develop new concepts in advertising and marketing; lead in tourism initiatives and conferences.\n
+Why you should study Hotel and Tourism management and what you will gain?\n
+\t\t      •\tIt offers various different career options and opportunities;\n
+\t\t      •\tYou will gain essential customer service and a strong sense of professionalism;\n
+\t\t      •\tYou will get to know the relationship with other tourism industries and how they function and, also establish a link between them;\n
+\t\t      •\tYou will have a greater chance to be internationally exposed and intermingle with different tourism sectors both home and abroad;\n
+\t\t      •\tYou are rest assured to acquire a distinctive knowledge in this program, more especially management roles;\n
+\t\t      •\tYou will develop skills in critical thinking, effective communication;\n
+\t\t      •\tYou will gain a lot of knowledge in this program studying in our University, as all courses are taught by lecturers who possesses excellent academic credentials with a strong professional background in this particular field;\n
+What Can You Do With a Degree in International Business?\n
+\t\t      •\tChef;\n
+\t\t      •\tMarketing Executive;\n
+\t\t      •\tReceptionist and Hotel Manager;\n
+\t\t      •\tRegional Tourism Associations\n
+\t\t      •\tGovernment Tourism Commissions;\n
+\t\t      •\tTravel Agency Center;\n
+\t\t      •\tTour Operator;\n
+\t\t      •\tAirlines – Air host/hostess, steward/stewardess, and Cruise lines;\n
+\t\t      •\tHotel Events Coordinator.\n
+</string>
     <string name="academics_bht_4_string"><![CDATA[Degree Plan Courses: HUMANITIES& SOCIAL SCIENCE (9 Credits) Subject: 117-100 Principles of Economics and Philosophy of Sufficiency Economy 117-101 Introduction to Sociology 117-102 Society and Government 117-103 Society and the Law 117-104 Human Relations and Personality Development 117-105 ASEAN in the Modern World 117-106 Preparation for the World of Work 117-111 Thai Civilization 117-112 Fundamental of Philosophy and Religion 117-113 Psychology in Daily Life 117-114 Western Civilization 117-116 Western Literature MATH & SCIENCE (6 Credits) Subject: 117-121 Basic Mathematical Principles 117-123 Life and Environment 117-124 Information Technology 117-125 Computer for Studies and Works 117-126 Food Safety and Nutrition for Good Health 117-127 Principles of Statistics LANGUAGE (12 Credits) Subjects: 117-191 Thai 1 117-192 Thai 2 117-291 Thai 3 117-292 Thai 4 117-145 English Communication 117-146 Academic English 117-246 English for Standardized Professional Test 117-343 English for Business 117-151 Chinese 1 117-152 Chinese 2 117-251 Chinese 3 117-252 Chinese 4 117-161 Japanese 1 117-162 Japanese 2 117-261 Japanese 3 117-262 Japanese 4 117-171 French 1 117-172 French 2 117-271 French 3 117-272 French 4 117-181 Korean 1 117-182 Korean 2 117-281 Korean 3 117-282 Korean 4 117-301 Russian 1 117-302 Russian 2 117-303 Russian 3 117-304 Russian 4 117-305 Spanish1 117-306 Spanish 2 117-307 Spanish 3 117-308 Spanish 4 117-309 Portuguese 1 117-310 Portuguese 2 117-311 Portuguese 3 117-312 Portuguese 4 ART APPRECIATION &PHYSICAL EDUCATION (3 Credits) Subjects: 117-132 Physical Education and Recreation 117-133 Art and Music Appreciation THE DEPARTMENT COURSES 90 Credits CORE SUBJECTS (30 Credits) Subjects: 221-102 Service Quality Management 221-103 Principles of Accounting  221-203 Organization and Management 221-204 Business Finance 221-205 Principles of Marketing 221-301 Human Resource Management 221-304 Service Marketing 221-333 Service Psychology 221-343 Cross Cultural Communication 221-402 Strategic Management MAJOR REQUIRED SUBJECTS (30 CREDIT) Subjects: 211-101 Introduction to Meetings Incentives Conventions and Exhibitions 211-111 Introduction to Hotel and Tourism 211-224 International Tourism and Incentive Travel 211-226 Meeting and Convention Management 211-228 Tourist Behavior 211-302Information Technology for Hospitality 211-306 Ethics and Business Law for Hotel and Tourism 211-312 Restaurant and Catering Management 211-316 Hospitality Marketing 211-446 Marketing Research in Hospitality MAJOR ELECTIVE SUBJECTS (30 Credits) Subjects: 211-112 Gastronomy and Kitchen Operation Management 211-122 Exhibition Management 211-212 Airline Business 211-221 Bar and Beverage Management 211-225 Sustainable Events and Tourism 211-227 Food and Beverage Management 211-288 Hotel Room Operations and Management 211-313 Consumer Behavior in Tourism Industry 211-323 Tour Guiding 211-324 Flight Attendant Operation 211-325 Travel Agency and Tour Operator Management 211-327 Managerial Accounting and Financial Management in Hospitality Industry 211-328 Contemporary Issues 1 211-412 Seminar in Hospitality Management 211-422 Contemporary Issues 2 211-423 Hospitality Project 211-425 Community Based Tourism Project 211-426 Tourism Planning and Destination Development 211-441 Convention Sales and Service 211-442 MICE Venue Management 211-443 Special Event Project 211-445 International Hotel Management 211-451 Hotel Planning and Development 211-452 Special Interest Tourism 211-453 Cultural Tourism Management 211-454 Marine Tourism Management 211-455 Agro Tourism Management 211-456 Spa and Wellness Management 211-457 Sport and Adventure Tourism Management 211-458 International Cuisine Management 211-459 Club and Bar Management 211-460 Logistics for Tourism Industry 211-461 Cruising Management 211-462 Theme Park Management 211-463 Medical Tourism 211-464 Shopping Tourism 211-465 Film Tourism 211-466 Food Tourism 211-467 Airline Marketing 211-482 Survey and Research for Hotel 211-501 Advanced Research Method in Hospitality 211-502 Advanced Data Analysis in Hospitality  LANGUAGE (15 Credits) Subjects: 211-241 English for Service Industry 1 211-242 English for Service Industry 2 211-243 English for Service Industry 3 211-244 English for Service Industry 4 211-245 English for Service Industry 5 211-251 Chinese for Service Industry 1 211-252 Chinese for Service Industry 2 211-253 Chinese for Service Industry 3 211-254 Chinese for Service Industry 4 211-255 Chinese for Service Industry 5 211-261 Japanese for Service Industry 1 211-262 Japanese for Service Industry 2 211-263 Japanese for Service Industry 3 211-264 Japanese for Service Industry 4 211-265 Japanese for Service Industry 5 211-271 French for Service Industry 1 211-272 French for Service Industry 2 211-273 French for Service Industry 3 211-274 French for Service Industry 4 211-275 French for Service Industry 5 MAJOR ELECTIVE SUBJECTS (Business Management)    Subjects: 221-412 International Marketing 221-429 Entrepreneurship and SMEs Management 221-434 Sales Management 221-436 Advertising and Sales Promotion 221-437 Direct Marketing 221-440 New Product Development 221-441 Brand Management 221-443 Marketing Strategy Management 221-451 Marketing Channels management 221-453 Product and Price Management 221-454 Integrated Marketing Communication 221-455 Marketing Planning CO-OPERATIVE EDUCATION (6 Credits) Subjects:  211-490 Preparation to Cooperative Education 211-491 Cooperative Education FREE ELECTIVE SUBJECTS (6 Credits) Subjects:  Any Subjects opening in the International Program Any Subjects opening in the International Program]]></string>
     <string name="academics_bht_5_string">Admission There are two methods for admission at Siam University: [1] transfer from an accredited university or college (see Transfer Credit), or [2] by earning a passing grade on the Entrance Examination. The Entrance Examination is available prior to each academic term. Entrance Requirements •	Grade 12 transcript for undergraduate applicants or equipment as well as transcript of academic records. •	Two copies of International passport •	A non-criminal record •	Statement of purpose •	2 letters of recommendation (from high school teachers + professor or alumni of SIAM) •	Results of TOEFL, TOEIC or IELTS, if available •	3 recent photographs (3x4cm) •	Application fees Documents and Application 1.	original and photocopy of M6 certificate, high school diploma or its equivalent 2.	a copy of the Thai citizen identification card and household registration or copy of passport 3.	four 3×4 cm. color photographs   Applying From Abroad Applicants from countries other than Thailand who have not graduated from an English medium high school must submit, when possible, the score of a recently passed English Proficiency test such as TOEIC or TOEFL. There is no predetermined minimum score for the TOEFL or TOEIC. Those scoring 500 on TOEIC or more will be exempt from the English Intensive Course requirements.</string>
     <string name="academics_bht_6_string">Assoc. Prof. Dr. Bongkosh N. Rittichainuwat Program Director   Prof. Eric  Laws Research Professor   Mr. Kris  Mouton Senior Lecturer   Mr.Sanvitcha Muttamara Lecturer   Ms.  Yasue  Hichitake Lecturer   Mr. Steven Mogain Lecturer</string>
@@ -550,6 +608,5 @@ If you arrived in Thailand with a tourist visa you will be required to leave the
     <string name="schoolin11">毕业院校</string>
     <string name="schoolin12">联系地址</string>
     <string name="schoolin13">联系电话</string>
-
 
 </resources>

@@ -130,8 +130,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 MainActivity.this.startActivity(intent);
                 break;
             case R.id.button_maps:
-                tst = Toast.makeText(this, "15", Toast.LENGTH_SHORT);
-                tst.show();
+                intent = new Intent();
+                intent.setClass(MainActivity.this, MapsActivity.class);
+                MainActivity.this.startActivity(intent);
                 break;
             case R.id.button_contactUs:
                 intent = new Intent();

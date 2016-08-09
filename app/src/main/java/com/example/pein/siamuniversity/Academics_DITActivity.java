@@ -12,7 +12,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 
-public class Academics_BBAActivity extends AppCompatActivity {
+public class Academics_DITActivity extends AppCompatActivity {
 
     ListView myListView;
     List<String> itemString=new ArrayList<String>();
@@ -21,48 +21,48 @@ public class Academics_BBAActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_academics_bba);
+        setContentView(R.layout.activity_academics_dit);
 
         ArrayList<HashMap<String, Object>> listItem =new ArrayList<HashMap<String, Object>>();
-        myListView = (ListView) findViewById(R.id.listView_academicsBBA);
+        myListView = (ListView) findViewById(R.id.listView_AcademicsDIT);
 
         HashMap <String, Object> itemMap =new HashMap <String,Object>();
-        itemMap.put("itemString",getApplication().getString(R.string.academics_bba_1_itemtitle));
+        itemMap.put("itemString",getApplication().getString(R.string.academics_dit_1_itemtitle));
         itemMap.put("itemImage2",R.drawable.aboutus2);
         listItem.add(itemMap);
 
         itemMap =new HashMap <String,Object>();
-        itemMap.put("itemString",getApplication().getString(R.string.academics_bba_2_itemtitle) );
+        itemMap.put("itemString",getApplication().getString(R.string.academics_dit_2_itemtitle) );
         itemMap.put("itemImage2",R.drawable.aboutus2);
         listItem.add(itemMap);
 
         itemMap =new HashMap <String,Object>();
-        itemMap.put("itemString",getApplication().getString(R.string.academics_bba_3_itemtitle) );
+        itemMap.put("itemString",getApplication().getString(R.string.academics_dit_3_itemtitle) );
         itemMap.put("itemImage2",R.drawable.aboutus2);
         listItem.add(itemMap);
 
         itemMap =new HashMap <String,Object>();
-        itemMap.put("itemString",getApplication().getString(R.string.academics_bba_4_itemtitle) );
+        itemMap.put("itemString",getApplication().getString(R.string.academics_dit_4_itemtitle) );
         itemMap.put("itemImage2",R.drawable.aboutus2);
         listItem.add(itemMap);
 
         itemMap =new HashMap <String,Object>();
-        itemMap.put("itemString",getApplication().getString(R.string.academics_bba_5_itemtitle) );
+        itemMap.put("itemString",getApplication().getString(R.string.academics_dit_5_itemtitle) );
         itemMap.put("itemImage2",R.drawable.aboutus2);
         listItem.add(itemMap);
 
         itemMap =new HashMap <String,Object>();
-        itemMap.put("itemString",getApplication().getString(R.string.academics_bba_6_itemtitle) );
+        itemMap.put("itemString",getApplication().getString(R.string.academics_dit_6_itemtitle) );
         itemMap.put("itemImage2",R.drawable.aboutus2);
         listItem.add(itemMap);
 
         itemMap =new HashMap <String,Object>();
-        itemMap.put("itemString",getApplication().getString(R.string.academics_bba_7_itemtitle) );
+        itemMap.put("itemString",getApplication().getString(R.string.academics_dit_7_itemtitle) );
         itemMap.put("itemImage2",R.drawable.aboutus2);
         listItem.add(itemMap);
 
         itemMap =new HashMap <String,Object>();
-        itemMap.put("itemString",getApplication().getString(R.string.academics_bba_8_itemtitle) );
+        itemMap.put("itemString",getApplication().getString(R.string.academics_dit_8_itemtitle) );
         itemMap.put("itemImage2",R.drawable.aboutus2);
         listItem.add(itemMap);
 
@@ -77,29 +77,29 @@ public class Academics_BBAActivity extends AppCompatActivity {
             public void onItemClick(AdapterView<?> arg0, View arg1, int arg2, long arg3){
                 Intent one=null;
                 switch (arg2){
-                    case 0:one=new Intent(Academics_BBAActivity.this,Academics_DetailActivity.class);
-                        one.putExtra("stringsid",R.string.academics_bba_1_string);
+                    case 0:one=new Intent(Academics_DITActivity.this,Academics_DetailActivity.class);
+                        one.putExtra("stringsid",R.string.academics_dit_1_string);
                         break;
-                    case 1:one=new Intent(Academics_BBAActivity.this,Academics_DetailActivity.class);
-                        one.putExtra("stringsid",R.string.academics_bba_2_string);
+                    case 1:one=new Intent(Academics_DITActivity.this,Academics_DetailActivity.class);
+                        one.putExtra("stringsid",R.string.academics_dit_2_string);
                         break;
-                    case 2:one=new Intent(Academics_BBAActivity.this,Academics_DetailActivity.class);
-                        one.putExtra("stringsid",R.string.academics_bba_3_string);
+                    case 2:one=new Intent(Academics_DITActivity.this,Academics_DetailActivity.class);
+                        one.putExtra("stringsid",R.string.academics_dit_3_string);
                         break;
-                    case 3:one=new Intent(Academics_BBAActivity.this,Academics_DetailActivity.class);
-                        one.putExtra("stringsid",R.string.academics_bba_4_string);
+                    case 3:one=new Intent(Academics_DITActivity.this,Academics_DetailActivity.class);
+                        one.putExtra("stringsid",R.string.academics_dit_4_string);
                         break;
-                    case 4:one=new Intent(Academics_BBAActivity.this,Academics_DetailActivity.class);
-                        one.putExtra("stringsid",R.string.academics_bba_5_string);
+                    case 4:one=new Intent(Academics_DITActivity.this,Academics_DetailActivity.class);
+                        one.putExtra("stringsid",R.string.academics_dit_5_string);
                         break;
-                    case 5:one=new Intent(Academics_BBAActivity.this,Academics_DetailActivity.class);
-                        one.putExtra("stringsid",R.string.academics_bba_6_string);
+                    case 5:one=new Intent(Academics_DITActivity.this,Academics_DetailActivity.class);
+                        one.putExtra("stringsid",R.string.academics_dit_6_string);
                         break;
-                    case 6:one=new Intent(Academics_BBAActivity.this,Academics_DetailActivity.class);
-                        one.putExtra("stringsid",R.string.academics_bba_7_string);
+                    case 6:one=new Intent(Academics_DITActivity.this,Academics_DetailActivity.class);
+                        one.putExtra("stringsid",R.string.academics_dit_7_string);
                         break;
-                    case 7: one=new Intent(Academics_BBAActivity.this,Academics_DetailActivity.class);
-                        one.putExtra("stringsid",R.string.academics_bba_8_string);
+                    case 7: one=new Intent(Academics_DITActivity.this,Academics_DetailActivity.class);
+                        one.putExtra("stringsid",R.string.academics_dit_8_string);
                         break;
                 }
                 startActivity(one);

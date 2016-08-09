@@ -6,16 +6,17 @@
     android:paddingLeft="10dp"
     android:paddingRight="10dp"
     android:paddingTop="15dp"
-    tools:context="com.example.pein.siamuniversity.Admission_AcademicQualificationsActivity"
+    tools:context="com.example.pein.siamuniversity.Academics_DetailActivity"
     android:orientation="vertical"
     android:scrollbars="vertical">
 
     <TextView
-        android:id="@+id/textView_admissionacademicqualifications"
+        android:id="@+id/textView_academicsDetail"
         android:layout_height="wrap_content"
         android:layout_width="fill_parent"
         android:textSize="20sp"
         android:editable="false"
-        android:text="@string/admission_Academic_string"
-        android:scrollIndicators="right" />
+        android:scrollIndicators="right"
+        android:gravity="fill_horizontal"/>
+
 </ScrollView>

@@ -12,7 +12,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 
-public class AdmissionActivity extends AppCompatActivity {
+public class Academics_MHRPSActivity extends AppCompatActivity {
 
     ListView myListView;
     List<String> itemString=new ArrayList<String>();
@@ -21,43 +21,40 @@ public class AdmissionActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_admission);
+        setContentView(R.layout.activity_academics__mhrps);
 
         ArrayList<HashMap<String, Object>> listItem =new ArrayList<HashMap<String, Object>>();
-        myListView = (ListView) findViewById(R.id.listView_admission);
+        myListView = (ListView) findViewById(R.id.listView_academicsMHRPS);
 
         HashMap <String, Object> itemMap =new HashMap <String,Object>();
-        itemMap.put("itemString",getApplication().getString(R.string.admission_WhenToApply_itemtitle));
+        itemMap.put("itemString",getApplication().getString(R.string.academics_bba_1_itemtitle));
         itemMap.put("itemImage2",R.drawable.aboutus2);
         listItem.add(itemMap);
 
         itemMap =new HashMap <String,Object>();
-        itemMap.put("itemString",getApplication().getString(R.string.admission_Academic_itemtitle) );
+        itemMap.put("itemString",getApplication().getString(R.string.academics_bba_2_itemtitle) );
+        itemMap.put("itemImage2",R.drawable.aboutus2);
+        listItem.add(itemMap);
+
+
+        itemMap =new HashMap <String,Object>();
+        itemMap.put("itemString",getApplication().getString(R.string.academics_bba_4_itemtitle) );
+        itemMap.put("itemImage2",R.drawable.aboutus2);
+        listItem.add(itemMap);
+
+
+        itemMap =new HashMap <String,Object>();
+        itemMap.put("itemString",getApplication().getString(R.string.academics_bba_6_itemtitle) );
         itemMap.put("itemImage2",R.drawable.aboutus2);
         listItem.add(itemMap);
 
         itemMap =new HashMap <String,Object>();
-        itemMap.put("itemString",getApplication().getString(R.string.admission_Profeciency_itemtitle) );
+        itemMap.put("itemString",getApplication().getString(R.string.academics_bba_7_itemtitle) );
         itemMap.put("itemImage2",R.drawable.aboutus2);
         listItem.add(itemMap);
 
         itemMap =new HashMap <String,Object>();
-        itemMap.put("itemString",getApplication().getString(R.string.admission_AdmissionProcedure_itemtitle) );
-        itemMap.put("itemImage2",R.drawable.aboutus2);
-        listItem.add(itemMap);
-
-        itemMap =new HashMap <String,Object>();
-        itemMap.put("itemString",getApplication().getString(R.string.admission_ApplyFromAbroad_itemtitle) );
-        itemMap.put("itemImage2",R.drawable.aboutus2);
-        listItem.add(itemMap);
-
-        itemMap =new HashMap <String,Object>();
-        itemMap.put("itemString",getApplication().getString(R.string.admission_ApplicationRequirements_itemtitle) );
-        itemMap.put("itemImage2",R.drawable.aboutus2);
-        listItem.add(itemMap);
-
-        itemMap =new HashMap <String,Object>();
-        itemMap.put("itemString",getApplication().getString(R.string.admission_VisaSupport_itemtitle) );
+        itemMap.put("itemString",getApplication().getString(R.string.academics_bba_8_itemtitle) );
         itemMap.put("itemImage2",R.drawable.aboutus2);
         listItem.add(itemMap);
 
@@ -72,23 +69,29 @@ public class AdmissionActivity extends AppCompatActivity {
             public void onItemClick(AdapterView<?> arg0, View arg1, int arg2, long arg3){
                 Intent one=null;
                 switch (arg2){
-                    case 0:one=new Intent(AdmissionActivity.this,Admission_WhenToApplyActivity.class);
+                    case 0:one=new Intent(Academics_MHRPSActivity.this,Academics_DetailActivity.class);
+                        one.putExtra("stringsid",R.string.academics_mhrps_1_string);
                         break;
-                    case 1:one=new Intent(AdmissionActivity.this,Admission_AcademicQualificationsActivity.class);
+                    case 1:one=new Intent(Academics_MHRPSActivity.this,Academics_DetailActivity.class);
+                        one.putExtra("stringsid",R.string.academics_mhrps_2_string);
                         break;
-                    case 2:one=new Intent(AdmissionActivity.this,Admisson_EnglishProfeciencyActivity.class);
+                    case 2:one=new Intent(Academics_MHRPSActivity.this,Academics_DetailActivity.class);
+                        one.putExtra("stringsid",R.string.academics_mhrps_3_string);
                         break;
-                    case 3:one=new Intent(AdmissionActivity.this,Admission_AdmissionProcedureActivity.class);
+                    case 3:one=new Intent(Academics_MHRPSActivity.this,Academics_DetailActivity.class);
+                        one.putExtra("stringsid",R.string.academics_mhrps_4_string);
                         break;
-                    case 4:one=new Intent(AdmissionActivity.this,Admission_ApplyFromAbroadActivity.class);
+                    case 4:one=new Intent(Academics_MHRPSActivity.this,Academics_DetailActivity.class);
+                        one.putExtra("stringsid",R.string.academics_mhrps_5_string);
                         break;
-                    case 5:one=new Intent(AdmissionActivity.this,Admission_ApplicationRequirementsActivity.class);
-                        break;
-                    case 6:one=new Intent(AdmissionActivity.this,Admission_VisaSupportActivity.class);
+                    case 5:one=new Intent(Academics_MHRPSActivity.this,Academics_DetailActivity.class);
+                        one.putExtra("stringsid",R.string.academics_mhrps_6_string);
                         break;
                 }
                 startActivity(one);
             }
         });
+
+
     }
 }
