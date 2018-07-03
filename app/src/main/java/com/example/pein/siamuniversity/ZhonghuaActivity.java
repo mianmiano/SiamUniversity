@@ -4,13 +4,14 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.webkit.WebView;
 
-public class Aboutus_HonorSystemActivity extends AppCompatActivity {
+public class ZhonghuaActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_aboutus_honor_system);
-        WebView myWebView = (WebView) findViewById(R.id.webView3);
-        myWebView.loadUrl("http://www.siam.edu/");
+        setContentView(R.layout.activity_zhonghua);
+
+        WebView myWebView = (WebView) findViewById(R.id.webView2);
+        myWebView.loadUrl("http://www.siamsino.com/");
     }
 }

@@ -8,7 +8,8 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.pein.siamuniversity.ContactUsActivity"
-    android:scrollbars="vertical">
+    android:scrollbars="vertical"
+    android:background="@drawable/contactusbackground">
 
     <TextView
         android:id="@+id/textView_ContactUs"
@@ -16,7 +17,8 @@
         android:layout_width="fill_parent"
         android:textSize="20sp"
         android:editable="false"
-        android:text="@string/aboutus_englishlanguagecenter_string"
-        android:scrollIndicators="right" />
+        android:text="@string/contactus_string"
+        android:scrollIndicators="right"
+        android:autoLink="all"/>
 
 </ScrollView>

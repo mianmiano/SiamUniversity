@@ -3,7 +3,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.pein.siamuniversity.Gallery_StudentActivityActivity">
+    tools:context="com.example.pein.siamuniversity.Gallery_StudentActivityActivity"
+    android:background="@drawable/gallerybackground">
 
     <HorizontalScrollView
         android:layout_width="match_parent"
@@ -21,68 +22,33 @@
                 android:layout_width="400dip"
                 android:layout_height="200dip"
                 android:layout_marginRight="2dp"
-                android:background="@drawable/gallery1" />
+                android:background="@drawable/galleryac1" />
 
             <ImageView
                 android:id="@+id/imageView_GalleryStudentActivity2"
                 android:layout_width="400dip"
                 android:layout_height="200dip"
                 android:layout_marginRight="2dp"
-                android:src="@drawable/gallery2" />
+                android:src="@drawable/galleryac2" />
 
             <ImageView
                 android:id="@+id/imageView_GalleryStudentActivity3"
                 android:layout_width="400dip"
                 android:layout_height="200dip"
-                android:src="@drawable/gallery3" />
+                android:src="@drawable/galleryac3" />
 
             <ImageView
                 android:id="@+id/imageView_GalleryStudentActivity4"
                 android:layout_width="400dip"
                 android:layout_height="200dip"
-                android:src="@drawable/gallery4" />
+                android:src="@drawable/galleryac4" />
 
             <ImageView
                 android:id="@+id/imageView_GalleryStudentActivity5"
                 android:layout_width="400dip"
                 android:layout_height="200dip"
-                android:src="@drawable/gallery5" />
+                android:src="@drawable/galleryac5" />
 
-            <ImageView
-                android:id="@+id/imageView_GalleryStudentActivity6"
-                android:layout_width="400dip"
-                android:layout_height="200dip"
-                android:src="@drawable/gallery6" />
-
-            <ImageView
-                android:id="@+id/imageView_GalleryStudentActivity7"
-                android:layout_width="400dip"
-                android:layout_height="200dip"
-                android:src="@drawable/gallery7" />
-
-            <ImageView
-                android:id="@+id/imageView_GalleryStudentActivity8"
-                android:layout_width="400dip"
-                android:layout_height="200dip"
-                android:src="@drawable/gallery8" />
-
-            <ImageView
-                android:id="@+id/imageView_GalleryStudentActivity9"
-                android:layout_width="400dip"
-                android:layout_height="200dip"
-                android:src="@drawable/gallery9" />
-
-            <ImageView
-                android:id="@+id/imageView_GalleryStudentActivity10"
-                android:layout_width="400dip"
-                android:layout_height="200dip"
-                android:src="@drawable/gallery10" />
-
-            <ImageView
-                android:id="@+id/imageView_GalleryStudentActivity11"
-                android:layout_width="400dip"
-                android:layout_height="200dip"
-                android:src="@drawable/gallery11" />
         </LinearLayout>
     </HorizontalScrollView>
 

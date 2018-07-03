@@ -22,220 +22,221 @@
 
         <ScrollView
                     android:layout_width="fill_parent"
-                    android:layout_height="wrap_content" ></ScrollView>
-
-    <LinearLayout
-
-        android:layout_height="match_parent"
-        android:layout_width="match_parent"
-        android:orientation="vertical"
-        android:layout_below="@+id/imageView"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentBottom="true">
-
-    <LinearLayout
-        android:paddingTop="5dp"
-        android:layout_height="wrap_content"
-        android:layout_width="match_parent"
-        android:orientation="horizontal">
-
-        <TableLayout
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:paddingRight="5dp"
-            >
-
-            <Button
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/button_aboutUs"
-                android:background="@drawable/about" />
-        </TableLayout>
-
-        <TableLayout
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="2"
-            android:paddingRight="5dp">
+                    android:layout_height="wrap_content" >
 
             <LinearLayout
-                android:layout_width="wrap_content"
+
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_below="@+id/imageView"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true">
+
+            <LinearLayout
+                android:paddingTop="5dp"
                 android:layout_height="wrap_content"
-                android:layout_gravity="fill_vertical"
-                android:paddingBottom="5dp"
+                android:layout_width="match_parent"
                 android:orientation="horizontal">
-                <Button
+
+                <TableLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:paddingRight="5dp"
+                    >
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/button_aboutUs"
+                        android:background="@drawable/about" />
+                </TableLayout>
+
+                <TableLayout
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:id="@+id/button_academics"
-                    android:layout_marginRight="5dp"
-                    android:background="@drawable/academics" />
-                <Button
+                    android:layout_weight="2"
+                    android:paddingRight="5dp">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="fill_vertical"
+                        android:paddingBottom="5dp"
+                        android:orientation="horizontal">
+                        <Button
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:id="@+id/button_academics"
+                            android:layout_marginRight="5dp"
+                            android:background="@drawable/academics" />
+                        <Button
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:id="@+id/button_suStaffs"
+                            android:background="@drawable/staffs" />
+
+                    </LinearLayout>
+
+                    <Button
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="2"
+                        android:id="@+id/button_maps"
+                        android:background="@drawable/map" />
+
+                </TableLayout>
+
+                <TableLayout
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:id="@+id/button_suStaffs"
-                    android:background="@drawable/staffs" />
+                    android:layout_weight="1" >>
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/button_studentVoice"
+                        android:layout_marginBottom="5dp"
+                        android:background="@drawable/student" />
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/button_awards"
+
+                        android:background="@drawable/awards" />
+                </TableLayout>
 
             </LinearLayout>
-
-            <Button
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:layout_weight="2"
-                android:id="@+id/button_maps"
-                android:background="@drawable/map" />
-
-        </TableLayout>
-
-        <TableLayout
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1" >>
-
-            <Button
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/button_studentVoice"
-                android:layout_marginBottom="5dp"
-                android:background="@drawable/student" />
-
-            <Button
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/button_awards"
-
-                android:background="@drawable/awards" />
-        </TableLayout>
-
-    </LinearLayout>
-
-    <LinearLayout
-        android:orientation="horizontal"
-        android:paddingTop="5dp"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-
-        <Button
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:layout_marginRight="5dp"
-            android:id="@+id/button_gallery"
-            android:background="@drawable/gallery" />
-
-        <Button
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:id="@+id/button_sports"
-            android:layout_marginRight="5dp"
-            android:background="@drawable/sports" />
-
-        <Button
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="2"
-            android:id="@+id/button_school"
-            android:background="@drawable/college" />
-    </LinearLayout>
-    <LinearLayout
-        android:orientation="horizontal"
-        android:paddingTop="5dp"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-
-        <Button
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="2"
-            android:layout_marginRight="5dp"
-            android:id="@+id/button_news"
-            android:background="@drawable/news" />
-
-        <Button
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:id="@+id/button_admission"
-            android:layout_marginRight="5dp"
-            android:background="@drawable/admission" />
-
-        <Button
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:id="@+id/button_socialMedia"
-            android:background="@drawable/social" />
-    </LinearLayout>
-
-    <LinearLayout
-        android:orientation="horizontal"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-
-        <TableLayout
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="3">
 
             <LinearLayout
                 android:orientation="horizontal"
                 android:paddingTop="5dp"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent">
+                android:layout_height="wrap_content">
 
                 <Button
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:layout_marginRight="5dp"
-                    android:id="@+id/button_library"
-                    android:background="@drawable/library" />
+                    android:id="@+id/button_gallery"
+                    android:background="@drawable/gallery" />
 
                 <Button
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
+                    android:id="@+id/button_sports"
                     android:layout_marginRight="5dp"
-                    android:id="@+id/button_calendar"
-                    android:background="@drawable/calendar" />
+                    android:background="@drawable/sports" />
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:id="@+id/button_school"
+                    android:background="@drawable/college" />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:paddingTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:layout_marginRight="5dp"
+                    android:id="@+id/button_news"
+                    android:background="@drawable/news" />
 
                 <Button
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
+                    android:id="@+id/button_admission"
                     android:layout_marginRight="5dp"
-                    android:id="@+id/button_video"
-                    android:background="@drawable/video" />
+                    android:background="@drawable/admission" />
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:id="@+id/button_socialMedia"
+                    android:background="@drawable/social" />
             </LinearLayout>
 
-            <Button
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginRight="5dp"
-                android:id="@+id/button_studentLogin"
-                android:layout_marginTop="5dp"
-                android:background="@drawable/login" />
-        </TableLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
 
-        <TableLayout
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
+                <TableLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3">
 
-            >
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:paddingTop="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
 
-            <Button
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/button_contactUs"
-                android:background="@drawable/contact" />
-        </TableLayout>
-    </LinearLayout>
-    </LinearLayout>
+                        <Button
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:layout_marginRight="5dp"
+                            android:id="@+id/button_library"
+                            android:background="@drawable/library" />
+
+                        <Button
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:layout_marginRight="5dp"
+                            android:id="@+id/button_calendar"
+                            android:background="@drawable/calendar" />
+
+                        <Button
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:layout_marginRight="5dp"
+                            android:id="@+id/button_video"
+                            android:background="@drawable/video" />
+                    </LinearLayout>
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="5dp"
+                        android:id="@+id/button_studentLogin"
+                        android:layout_marginTop="5dp"
+                        android:background="@drawable/login" />
+                </TableLayout>
+
+                <TableLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+
+                    >
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/button_contactUs"
+                        android:background="@drawable/contact" />
+                </TableLayout>
+            </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
 
 
 </LinearLayout>

@@ -1,115 +1,212 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.pein.siamuniversity">
+
     <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"></uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="com.google.android.provider.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the 'MyLocation' functionality. 
+    -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+
+
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@drawable/app"
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme2">
         <activity
             android:name=".MainActivity"
-            android:theme="@style/AppTheme"></activity>
-        <activity android:name=".AboutusActivity" />
-        <activity android:name=".NewsActivity" />
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".AboutusActivity"
+            android:label="@string/aboutus_acname" />
+        <activity android:name=".NewsActivity"
+            android:label="@string/news_acname"/>
         >
         <meta-data
             android:name="com.google.android.gms.version"
             android:value="@integer/google_play_services_version" />
 
         <activity android:name=".VideoActivity" />
-        <activity android:name=".SocialMediaActivity" />
+        <activity android:name=".SocialMediaActivity"
+            android:label="@string/socialmedia_acname"/>
         <activity android:name=".StudentLoginActivity" />
-        <activity android:name=".LibraryActivity" />
+        <activity android:name=".LibraryActivity"
+            android:label="@string/library_acname"/>
         <activity
             android:name=".WelcomeActivity"
+            android:screenOrientation="portrait"
             android:theme="@style/AppTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-
         </activity>
-        <activity android:name=".Aboutus_HistoryActivity" />
-        <activity android:name=".Aboutus_MessageFromThePresidentActivity" />
-        <activity android:name=".Aboutus_MissionAndVisionActivity" />
-        <activity android:name=".Aboutus_StrategiesActivity" />
-        <activity android:name=".Aboutus_InternationalColleborationsActivity" />
-        <activity android:name=".Aboutus_SdudentConductPolicyActivity" />
-        <activity android:name=".Aboutus_GradingSystemActivity" />
-        <activity android:name=".Aboutus_HonorSystemActivity" />
-        <activity android:name=".Aboutus_InternationalSdudentCenterActivity" />
-        <activity android:name=".Aboutus_EnglishLanguageCenterActivity" />
-        <activity android:name=".Aboutus_InternshipAndCareerPlacementActivity" />
-        <activity android:name=".Aboutus_InternationalAccrediationActivity" />
-        <activity android:name=".AdmissionActivity" />
-        <activity android:name=".Admission_WhenToApplyActivity" />
-        <activity android:name=".Admission_AcademicQualificationsActivity" />
-        <activity android:name=".Admisson_EnglishProfeciencyActivity" />
-        <activity android:name=".Admission_AdmissionProcedureActivity" />
-        <activity android:name=".Admission_ApplicationRequirementsActivity" />
-        <activity android:name=".Admission_VisaSupportActivity" />
-        <activity android:name=".Admission_ApplyFromAbroadActivity" />
-        <activity android:name=".GalleryActivity" />
+        <activity
+            android:name=".Aboutus_HistoryActivity"
+            android:label="@string/aboutus_history_acname" />
+        <activity android:name=".ThaiProgramsActivity" />
+        <activity
+            android:name=".Aboutus_MessageFromThePresidentActivity"
+            android:label="@string/aboutus_president_acname" />
+        <activity
+            android:name=".Aboutus_MissionAndVisionActivity"
+            android:label="@string/aboutus_mission_acname" />
+        <activity
+            android:name=".Aboutus_StrategiesActivity"
+            android:label="@string/aboutus_strategies_acname" />
+        <activity
+            android:name=".Aboutus_InternationalColleborationsActivity"
+            android:label="@string/aboutus_colleborations_acname" />
+        <activity
+            android:name=".Aboutus_SdudentConductPolicyActivity"
+            android:label="@string/aboutus_policy_acname" />
+        <activity
+            android:name=".Aboutus_GradingSystemActivity"
+            android:label="@string/aboutus_grading_acname" />
+        <activity
+            android:name=".Aboutus_HonorSystemActivity"
+            android:label="@string/aboutus_honor_acname" />
+        <activity
+            android:name=".Aboutus_InternationalSdudentCenterActivity"
+            android:label="@string/aboutus_studentcenter_acname" />
+        <activity
+            android:name=".Aboutus_EnglishLanguageCenterActivity"
+            android:label="@string/aboutus_englishlanguagecenter_acname" />
+        <activity
+            android:name=".Aboutus_InternshipAndCareerPlacementActivity"
+            android:label="@string/aboutus_placement_acname" />
+        <activity
+            android:name=".Aboutus_InternationalAccrediationActivity"
+            android:label="@string/aboutus_accrediation_acname" />
+        <activity
+            android:name=".AdmissionActivity"
+            android:label="@string/admission_acname" />
+        <activity
+            android:name=".Admission_WhenToApplyActivity"
+            android:label="@string/admission_when_acname" />
+        <activity
+            android:name=".Admission_AcademicQualificationsActivity"
+            android:label="@string/admission_qualification_acname" />
+        <activity
+            android:name=".Admisson_EnglishProfeciencyActivity"
+            android:label="@string/admission_profeciency_acname" />
+        <activity
+            android:name=".Admission_AdmissionProcedureActivity"
+            android:label="@string/admission_procedure_acname" />
+        <activity
+            android:name=".Admission_ApplicationRequirementsActivity"
+            android:label="@string/admission_requirements_acname" />
+        <activity
+            android:name=".Admission_VisaSupportActivity"
+            android:label="@string/admission_visa_acname" />
+        <activity
+            android:name=".Admission_ApplyFromAbroadActivity"
+            android:label="@string/admission_apply_acname" />
+        <activity
+            android:name=".GalleryActivity"
+            android:label="@string/gallery_acname" />
         <activity
             android:name=".Gallery_LibraryActivity"
-            android:label="@string/title_activity_gallery__library"
+            android:label="@string/gallery_library_acname"
             android:theme="@style/AppTheme" />
-        <activity android:name=".Gallery_ComputerLabActivity" />
-        <activity android:name=".Gallery_FinancialLabActivity" />
-        <activity android:name=".Gallery_MaruaryLibraryActivity" />
-        <activity android:name=".Gallery_CampusActivity" />
-        <activity android:name=".Gallery_SportsComplexActivity" />
-        <activity android:name=".Gallery_FoodCourtActivity" />
-        <activity android:name=".Gallery_StudentActivityActivity" />
-        <activity android:name=".CalenderActivity" />
-        <activity android:name=".AwardsActivity" />
-        <activity android:name=".ContactUsActivity" />
-        <activity android:name=".AcademicsActivity" />
-        <activity android:name=".Academics_BBAActivity"></activity>
-        <activity android:name=".Aboutus_HistoryActivity" />
-        <activity android:name=".Aboutus_MessageFromThePresidentActivity" />
-        <activity android:name=".Aboutus_MissionAndVisionActivity" />
-        <activity android:name=".Aboutus_StrategiesActivity" />
-        <activity android:name=".Aboutus_InternationalColleborationsActivity" />
-        <activity android:name=".Aboutus_SdudentConductPolicyActivity" />
-        <activity android:name=".Aboutus_GradingSystemActivity" />
-        <activity android:name=".Aboutus_HonorSystemActivity" />
-        <activity android:name=".Aboutus_InternationalSdudentCenterActivity" />
-        <activity android:name=".Aboutus_EnglishLanguageCenterActivity" />
-        <activity android:name=".Aboutus_InternshipAndCareerPlacementActivity" />
-        <activity android:name=".Aboutus_InternationalAccrediationActivity" />
-        <activity android:name=".AdmissionActivity" />
-        <activity android:name=".Admission_WhenToApplyActivity" />
-        <activity android:name=".Admission_AcademicQualificationsActivity" />
-        <activity android:name=".Admisson_EnglishProfeciencyActivity" />
-        <activity android:name=".Admission_AdmissionProcedureActivity" />
-        <activity android:name=".Admission_ApplyFromAbroadActivity" />
-        <activity android:name=".Admission_ApplicationRequirementsActivity" />
-        <activity android:name=".Admission_VisaSupportActivity" />
-        <activity android:name=".GalleryActivity" />
         <activity
-            android:name=".Gallery_LibraryActivity"
-            android:label="@string/title_activity_gallery__library"
+            android:name=".Gallery_ComputerLabActivity"
+            android:label="@string/gallery_computerlab_acname"
             android:theme="@style/AppTheme" />
-        <activity android:name=".Gallery_ComputerLabActivity" />
-        <activity android:name=".Gallery_FinancialLabActivity" />
-        <activity android:name=".Gallery_MaruaryLibraryActivity" />
-        <activity android:name=".Gallery_CampusActivity" />
-        <activity android:name=".Gallery_SportsComplexActivity" />
-        <activity android:name=".Gallery_FoodCourtActivity" />
-        <activity android:name=".Gallery_StudentActivityActivity">
-        </activity>
-        <activity android:name=".CalenderActivity" />
-        <activity android:name=".AwardsActivity" />
-        <activity android:name=".ContactUsActivity" />
+        <activity
+            android:name=".Gallery_FinancialLabActivity"
+            android:label="@string/gallery_financiallab_acname"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Gallery_MaruaryLibraryActivity"
+            android:label="@string/gallery_maruarylib_acname"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Gallery_CampusActivity"
+            android:label="@string/gallery_campus_acname"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Gallery_SportsComplexActivity"
+            android:label="@string/gallery_sports_acname"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Gallery_FoodCourtActivity"
+            android:label="@string/gallery_food_acname"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Gallery_StudentActivityActivity"
+            android:label="@string/gallery_activity_acname"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".CalenderActivity"
+            android:label="@string/calendar_acname" />
+        <activity
+            android:name=".AwardsActivity"
+            android:label="@string/awards_acname" />
+        <activity
+            android:name=".ContactUsActivity"
+            android:label="@string/contactus_acname" />
+        <activity
+            android:name=".AcademicsActivity"
+            android:label="@string/academics_acname" />
+        <activity
+            android:name=".Academics_BBAActivity"
+            android:label="@string/academics_bba_acname" />
         <activity
             android:name=".SchoolActivity"
-            android:theme="@style/AppTheme2" />
-        <activity android:name=".SchoolinActivity" />
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".SchoolinActivity"
+            android:theme="@style/AppTheme" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".MapsActivity"
+            android:label="@string/title_activity_maps" />
+        <activity
+            android:name=".Academics_BHTActivity"
+            android:label="@string/academics_bht_acname" />
+        <activity
+            android:name=".Academics_MBAActivity"
+            android:label="@string/academics_mba_acname" />
+        <activity
+            android:name=".Academics_DITActivity"
+            android:label="@string/academics_dit_acname" />
+        <activity
+            android:name=".Academics_MHRPSActivity"
+            android:label="@string/academics_mhrps_acname" />
+        <activity android:name=".Academics_DCActivity" />
+        <activity android:name=".Academics_BCActivity" />
+        <activity
+            android:name=".Academics_DetailActivity"
+            android:label="@string/academics_detail_acname" />
+        <activity android:name=".ZhonghuaActivity" />
+        <activity
+            android:name=".StaffActivity"
+            android:label="@string/sustaffs_acname" />
+        <activity
+            android:name=".StudentsVoiceActivity"
+            android:label="@string/studentvoice_acname" />
+        <activity
+            android:name=".SportsActivity"
+            android:label="@string/sports_acname" />
+        <activity android:name=".StudentLogininActivity"
+            android:label="@string/studentlogin_acname"></activity>
     </application>
 
 </manifest>

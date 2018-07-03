@@ -11,6 +11,6 @@ public class Aboutus_MessageFromThePresidentActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_aboutus_message_from_the_president);
         ImageView imageView=(ImageView)findViewById(R.id.imageView_aboutUs_messageFromThePresident);
-        imageView.setImageResource(R.drawable.aboutus1);
+        imageView.setImageResource(R.drawable.president);
     }
 }

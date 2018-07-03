@@ -16,7 +16,7 @@
         android:layout_width="fill_parent"
         android:textSize="20sp"
         android:editable="false"
-        android:text="@string/aboutus_englishlanguagecenter_string"
+        android:text="@string/calendar"
         android:scrollIndicators="right" />
 
 </ScrollView>

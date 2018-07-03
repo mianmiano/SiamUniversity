@@ -27,50 +27,50 @@ public class GalleryActivity extends AppCompatActivity {
         myListView = (ListView) findViewById(R.id.listView_Gallery);
 
         HashMap <String, Object> itemMap =new HashMap <String,Object>();
-        itemMap.put("itemImage1",R.drawable.aboutus1);
-        itemMap.put("itemString","Library" );
+        itemMap.put("itemImage1",R.drawable.gallerylib1);
+        itemMap.put("itemString",getApplication().getString(R.string.gallery_lib_itemtitle) );
         itemMap.put("itemImage2",R.drawable.aboutus2);
         listItem.add(itemMap);
 
         itemMap =new HashMap <String,Object>();
-        itemMap.put("itemImage1",R.drawable.aboutus1);
-        itemMap.put("itemString","Computer Lab" );
+        itemMap.put("itemImage1",R.drawable.gallerycomputerlab1);
+        itemMap.put("itemString",getApplication().getString(R.string.gallery_computerlab_itemtitle) );
         itemMap.put("itemImage2",R.drawable.aboutus2);
         listItem.add(itemMap);
 
         itemMap =new HashMap <String,Object>();
-        itemMap.put("itemImage1",R.drawable.aboutus1);
-        itemMap.put("itemString","Financial Lab" );
+        itemMap.put("itemImage1",R.drawable.galleryfinlab1);
+        itemMap.put("itemString",getApplication().getString(R.string.gallery_finlab_itemtitle) );
         itemMap.put("itemImage2",R.drawable.aboutus2);
         listItem.add(itemMap);
 
         itemMap =new HashMap <String,Object>();
-        itemMap.put("itemImage1",R.drawable.aboutus1);
-        itemMap.put("itemString","Maruary Library" );
+        itemMap.put("itemImage1",R.drawable.gallerymarlib1);
+        itemMap.put("itemString",getApplication().getString(R.string.gallery_maruarylib_itemtitle) );
         itemMap.put("itemImage2",R.drawable.aboutus2);
         listItem.add(itemMap);
 
         itemMap =new HashMap <String,Object>();
-        itemMap.put("itemImage1",R.drawable.aboutus1);
-        itemMap.put("itemString","Campus" );
+        itemMap.put("itemImage1",R.drawable.gallerycampus1);
+        itemMap.put("itemString",getApplication().getString(R.string.gallery_campus_itemtitle) );
         itemMap.put("itemImage2",R.drawable.aboutus2);
         listItem.add(itemMap);
 
         itemMap =new HashMap <String,Object>();
-        itemMap.put("itemImage1",R.drawable.aboutus1);
-        itemMap.put("itemString","Sports Complex" );
+        itemMap.put("itemImage1",R.drawable.gallerysports1);
+        itemMap.put("itemString",getApplication().getString(R.string.gallery_sports_itemtitle) );
         itemMap.put("itemImage2",R.drawable.aboutus2);
         listItem.add(itemMap);
 
         itemMap =new HashMap <String,Object>();
-        itemMap.put("itemImage1",R.drawable.aboutus1);
-        itemMap.put("itemString","Food Court" );
+        itemMap.put("itemImage1",R.drawable.galleryfood1);
+        itemMap.put("itemString",getApplication().getString(R.string.gallery_food_itemtitle) );
         itemMap.put("itemImage2",R.drawable.aboutus2);
         listItem.add(itemMap);
 
         itemMap =new HashMap <String,Object>();
-        itemMap.put("itemImage1",R.drawable.aboutus1);
-        itemMap.put("itemString","Student Activity" );
+        itemMap.put("itemImage1",R.drawable.galleryac1);
+        itemMap.put("itemString",getApplication().getString(R.string.gallery_studentac_itemtitle) );
         itemMap.put("itemImage2",R.drawable.aboutus2);
         listItem.add(itemMap);
 

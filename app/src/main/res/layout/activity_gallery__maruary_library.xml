@@ -3,7 +3,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.pein.siamuniversity.Gallery_MaruaryLibraryActivity">
+    tools:context="com.example.pein.siamuniversity.Gallery_MaruaryLibraryActivity"
+    android:background="@drawable/gallerybackground">
 
     <HorizontalScrollView
         android:layout_width="match_parent"
@@ -21,68 +22,27 @@
                 android:layout_width="400dip"
                 android:layout_height="200dip"
                 android:layout_marginRight="2dp"
-                android:background="@drawable/gallery1" />
+                android:background="@drawable/gallerymarlib1" />
 
             <ImageView
                 android:id="@+id/imageView_GalleryMaruaryLibrary2"
                 android:layout_width="400dip"
                 android:layout_height="200dip"
                 android:layout_marginRight="2dp"
-                android:src="@drawable/gallery2" />
+                android:src="@drawable/gallerymarlib2" />
 
             <ImageView
                 android:id="@+id/imageView_GalleryMaruaryLibrary3"
                 android:layout_width="400dip"
                 android:layout_height="200dip"
-                android:src="@drawable/gallery3" />
+                android:src="@drawable/gallerymarlib3" />
 
             <ImageView
                 android:id="@+id/imageView_GalleryMaruaryLibrary4"
                 android:layout_width="400dip"
                 android:layout_height="200dip"
-                android:src="@drawable/gallery4" />
+                android:src="@drawable/gallerymarlib4" />
 
-            <ImageView
-                android:id="@+id/imageView_GalleryMaruaryLibrary5"
-                android:layout_width="400dip"
-                android:layout_height="200dip"
-                android:src="@drawable/gallery5" />
-
-            <ImageView
-                android:id="@+id/imageView_GalleryMaruaryLibrary6"
-                android:layout_width="400dip"
-                android:layout_height="200dip"
-                android:src="@drawable/gallery6" />
-
-            <ImageView
-                android:id="@+id/imageView_GalleryMaruaryLibrary7"
-                android:layout_width="400dip"
-                android:layout_height="200dip"
-                android:src="@drawable/gallery7" />
-
-            <ImageView
-                android:id="@+id/imageView_GalleryMaruaryLibrary8"
-                android:layout_width="400dip"
-                android:layout_height="200dip"
-                android:src="@drawable/gallery8" />
-
-            <ImageView
-                android:id="@+id/imageView_GalleryMaruaryLibrary9"
-                android:layout_width="400dip"
-                android:layout_height="200dip"
-                android:src="@drawable/gallery9" />
-
-            <ImageView
-                android:id="@+id/imageView_GalleryMaruaryLibrary10"
-                android:layout_width="400dip"
-                android:layout_height="200dip"
-                android:src="@drawable/gallery10" />
-
-            <ImageView
-                android:id="@+id/imageView_GalleryMaruaryLibrary11"
-                android:layout_width="400dip"
-                android:layout_height="200dip"
-                android:src="@drawable/gallery11" />
         </LinearLayout>
     </HorizontalScrollView>
 

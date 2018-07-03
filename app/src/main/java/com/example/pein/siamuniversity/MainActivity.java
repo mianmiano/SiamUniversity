@@ -1,11 +1,15 @@
 package com.example.pein.siamuniversity;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
+
+import com.google.android.gms.common.GoogleApiAvailability;
+import com.google.android.gms.maps.MapsInitializer;
 
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
@@ -79,8 +83,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 MainActivity.this.startActivity(intent);
                 break;
             case R.id.button_studentVoice:
-                tst = Toast.makeText(this, "444444", Toast.LENGTH_SHORT);
-                tst.show();
+                intent = new Intent();
+                intent.setClass(MainActivity.this, StudentsVoiceActivity.class);
+                MainActivity.this.startActivity(intent);
                 break;
             case R.id.button_news:
                 intent = new Intent();
@@ -88,8 +93,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 MainActivity.this.startActivity(intent);
                 break;
             case R.id.button_sports:
-                tst = Toast.makeText(this, "666666", Toast.LENGTH_SHORT);
-                tst.show();
+                intent = new Intent();
+                intent.setClass(MainActivity.this, SportsActivity.class);
+                MainActivity.this.startActivity(intent);
                 break;
             case R.id.button_gallery:
                 intent = new Intent();
@@ -107,8 +113,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 MainActivity.this.startActivity(intent);
                 break;
             case R.id.button_studentLogin:
-                tst = Toast.makeText(this, "10", Toast.LENGTH_SHORT);
-                tst.show();
+                intent = new Intent();
+                intent.setClass(MainActivity.this, StudentLogininActivity.class);
+                MainActivity.this.startActivity(intent);
                 break;
             case R.id.button_calendar:
                 intent = new Intent();
@@ -116,13 +123,14 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 MainActivity.this.startActivity(intent);
                 break;
             case R.id.button_video:
-                intent = new Intent();
-                intent.setClass(MainActivity.this, VideoActivity.class);
-                MainActivity.this.startActivity(intent);
+                Uri uri = Uri.parse("https://www.youtube.com/watch?v=omE8ez97wUs");
+                Intent intent = new Intent(Intent.ACTION_VIEW,uri);
+                startActivity(intent);
                 break;
             case R.id.button_suStaffs:
-                tst = Toast.makeText(this, "13", Toast.LENGTH_SHORT);
-                tst.show();
+                intent = new Intent();
+                intent.setClass(MainActivity.this, StaffActivity.class);
+                MainActivity.this.startActivity(intent);
                 break;
             case R.id.button_awards:
                 intent = new Intent();
@@ -130,9 +138,16 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 MainActivity.this.startActivity(intent);
                 break;
             case R.id.button_maps:
-                intent = new Intent();
-                intent.setClass(MainActivity.this, MapsActivity.class);
-                MainActivity.this.startActivity(intent);
+                int x= GoogleApiAvailability.getInstance().isGooglePlayServicesAvailable(this);
+                if(x!=0){
+                    Toast.makeText(getApplicationContext(), "No Google Service", Toast.LENGTH_LONG).show();
+
+                }
+                else
+                {intent = new Intent();
+                    intent.setClass(MainActivity.this, MapsActivity.class);
+                    MainActivity.this.startActivity(intent);
+                }
                 break;
             case R.id.button_contactUs:
                 intent = new Intent();

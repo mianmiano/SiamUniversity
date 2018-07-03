@@ -144,7 +144,7 @@ public class AcademicsActivity extends AppCompatActivity {
             public boolean onChildClick(ExpandableListView parent, View v, int groupPosition, int childPosition, long id)
             {
 
-                Toast.makeText(AcademicsActivity.this, "group=" + groupPosition + "---child=" + childPosition + "---" + item_list.get(groupPosition).get(childPosition), Toast.LENGTH_SHORT).show();
+                //Toast.makeText(AcademicsActivity.this, "group=" + groupPosition + "---child=" + childPosition + "---" + item_list.get(groupPosition).get(childPosition), Toast.LENGTH_SHORT).show();
 
                 Intent one=null;
 
@@ -154,7 +154,7 @@ public class AcademicsActivity extends AppCompatActivity {
                             break;
                         case 1: one=new Intent(AcademicsActivity.this,Academics_BHTActivity.class);
                             break;
-                        case 2: one=new Intent(AcademicsActivity.this,Academics_BCActivity.class);
+                        case 2: one=new Intent(AcademicsActivity.this,ZhonghuaActivity.class);
                     }
                         break;
                     case 1: switch (childPosition){
@@ -162,7 +162,7 @@ public class AcademicsActivity extends AppCompatActivity {
                             break;
                         case 1: one=new Intent(AcademicsActivity.this,Academics_MHRPSActivity.class);
                             break;
-                        case 2: one=new Intent(AcademicsActivity.this,Academics_DCActivity.class);
+                        case 2: one=new Intent(AcademicsActivity.this,ZhonghuaActivity.class);
                             break;
                     }
                         break;
@@ -173,70 +173,70 @@ public class AcademicsActivity extends AppCompatActivity {
                         break;
                     case 3: switch (childPosition){
                         case 0:
-                            intent = new Intent();
-                            intent.putExtra("val",0);
-                            intent.setClass(AcademicsActivity.this,ThaiProgramsActivity.class);
+                           one = new Intent();
+                            one.putExtra("val",0);
+                            one.setClass(AcademicsActivity.this,ThaiProgramsActivity.class);
                             AcademicsActivity.this.startActivity(intent);
                             break;
                         case 1:
-                            intent = new Intent();
-                            intent.putExtra("val", 1);
-                            intent.setClass(AcademicsActivity.this,ThaiProgramsActivity.class);
-                            AcademicsActivity.this.startActivity(intent);
+                           one = new Intent();
+                            one.putExtra("val", 1);
+                            one.setClass(AcademicsActivity.this,ThaiProgramsActivity.class);
+                           // AcademicsActivity.this.startActivity(intent);
                             break;
                         case 2:
-                            intent = new Intent();
-                            intent.putExtra("val", 2);
-                            intent.setClass(AcademicsActivity.this,ThaiProgramsActivity.class);
-                            AcademicsActivity.this.startActivity(intent);
+                           one = new Intent();
+                            one.putExtra("val", 2);
+                            one.setClass(AcademicsActivity.this,ThaiProgramsActivity.class);
+                            //AcademicsActivity.this.startActivity(intent);
                             break;
                         case 3:
-                            intent = new Intent();
-                            intent.putExtra("val", 3);
-                            intent.setClass(AcademicsActivity.this,ThaiProgramsActivity.class);
-                            AcademicsActivity.this.startActivity(intent);
+                           one = new Intent();
+                            one.putExtra("val", 3);
+                            one.setClass(AcademicsActivity.this,ThaiProgramsActivity.class);
+                            //AcademicsActivity.this.startActivity(intent);
                             break;
                         case 4:
-                            intent = new Intent();
-                            intent.putExtra("val", 4);
-                            intent.setClass(AcademicsActivity.this,ThaiProgramsActivity.class);
-                            AcademicsActivity.this.startActivity(intent);
+                           one = new Intent();
+                            one.putExtra("val", 4);
+                            one.setClass(AcademicsActivity.this,ThaiProgramsActivity.class);
+                            //AcademicsActivity.this.startActivity(intent);
                             break;
                         case 5:
-                            intent = new Intent();
-                            intent.putExtra("val", 5);
-                            intent.setClass(AcademicsActivity.this,ThaiProgramsActivity.class);
-                            AcademicsActivity.this.startActivity(intent);
+                           one = new Intent();
+                            one.putExtra("val", 5);
+                            one.setClass(AcademicsActivity.this,ThaiProgramsActivity.class);
+                           // AcademicsActivity.this.startActivity(intent);
                             break;
                         case 6:
-                            intent = new Intent();
-                            intent.putExtra("val", 6);
-                            intent.setClass(AcademicsActivity.this,ThaiProgramsActivity.class);
-                            AcademicsActivity.this.startActivity(intent);
+                           one = new Intent();
+                            one.putExtra("val", 6);
+                            one.setClass(AcademicsActivity.this,ThaiProgramsActivity.class);
+                            //AcademicsActivity.this.startActivity(intent);
                             break;
                         case 7:
-                            intent = new Intent();
-                            intent.putExtra("val", 7);
-                            intent.setClass(AcademicsActivity.this,ThaiProgramsActivity.class);
-                            AcademicsActivity.this.startActivity(intent);
+                           one = new Intent();
+                            one.putExtra("val", 7);
+                            one.setClass(AcademicsActivity.this,ThaiProgramsActivity.class);
+                            //AcademicsActivity.this.startActivity(intent);
                             break;
                         case 8:
-                            intent = new Intent();
-                            intent.putExtra("val",8);
-                            intent.setClass(AcademicsActivity.this,ThaiProgramsActivity.class);
-                            AcademicsActivity.this.startActivity(intent);
+                           one = new Intent();
+                            one.putExtra("val",8);
+                           one.setClass(AcademicsActivity.this,ThaiProgramsActivity.class);
+                           // AcademicsActivity.this.startActivity(intent);
                             break;
                         case 9:
-                            intent = new Intent();
-                            intent.putExtra("val",9);
-                            intent.setClass(AcademicsActivity.this,ThaiProgramsActivity.class);
-                            AcademicsActivity.this.startActivity(intent);
+                            
+                            one.putExtra("val",9);
+                            one.setClass(AcademicsActivity.this,ThaiProgramsActivity.class);
+                           //AcademicsActivity.this.startActivity(intent);
                             break;
                         case 10:
-                            intent = new Intent();
-                            intent.putExtra("val", 10);
-                            intent.setClass(AcademicsActivity.this,ThaiProgramsActivity.class);
-                            AcademicsActivity.this.startActivity(intent);
+                           one = new Intent();
+                            one.putExtra("val", 10);
+                            one.setClass(AcademicsActivity.this,ThaiProgramsActivity.class);
+                           // AcademicsActivity.this.startActivity(intent);
                             break;
 
                     }

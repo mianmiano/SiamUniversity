@@ -3,7 +3,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.pein.siamuniversity.Gallery_ComputerLabActivity">
+    tools:context="com.example.pein.siamuniversity.Gallery_ComputerLabActivity"
+    android:background="@drawable/gallerybackground">
 
     <HorizontalScrollView
         android:layout_width="match_parent"
@@ -21,68 +22,21 @@
                 android:layout_width="400dip"
                 android:layout_height="200dip"
                 android:layout_marginRight="2dp"
-                android:background="@drawable/gallery1" />
+                android:background="@drawable/gallerycomputerlab1" />
 
             <ImageView
                 android:id="@+id/imageView_GalleryComputerLab2"
                 android:layout_width="400dip"
                 android:layout_height="200dip"
                 android:layout_marginRight="2dp"
-                android:src="@drawable/gallery2" />
+                android:src="@drawable/gallerycomputerlab2" />
 
             <ImageView
                 android:id="@+id/imageView_GalleryComputerLab3"
                 android:layout_width="400dip"
                 android:layout_height="200dip"
-                android:src="@drawable/gallery3" />
+                android:src="@drawable/gallerycomputerlab3" />
 
-            <ImageView
-                android:id="@+id/imageView_GalleryComputerLab4"
-                android:layout_width="400dip"
-                android:layout_height="200dip"
-                android:src="@drawable/gallery4" />
-
-            <ImageView
-                android:id="@+id/imageView_GalleryComputerLab5"
-                android:layout_width="400dip"
-                android:layout_height="200dip"
-                android:src="@drawable/gallery5" />
-
-            <ImageView
-                android:id="@+id/imageView_GalleryComputerLab6"
-                android:layout_width="400dip"
-                android:layout_height="200dip"
-                android:src="@drawable/gallery6" />
-
-            <ImageView
-                android:id="@+id/imageView_GalleryComputerLab7"
-                android:layout_width="400dip"
-                android:layout_height="200dip"
-                android:src="@drawable/gallery7" />
-
-            <ImageView
-                android:id="@+id/imageView_GalleryComputerLab8"
-                android:layout_width="400dip"
-                android:layout_height="200dip"
-                android:src="@drawable/gallery8" />
-
-            <ImageView
-                android:id="@+id/imageView_GalleryComputerLab9"
-                android:layout_width="400dip"
-                android:layout_height="200dip"
-                android:src="@drawable/gallery9" />
-
-            <ImageView
-                android:id="@+id/imageView_GalleryComputerLab10"
-                android:layout_width="400dip"
-                android:layout_height="200dip"
-                android:src="@drawable/gallery10" />
-
-            <ImageView
-                android:id="@+id/imageView_GalleryComputerLab11"
-                android:layout_width="400dip"
-                android:layout_height="200dip"
-                android:src="@drawable/gallery11" />
         </LinearLayout>
     </HorizontalScrollView>
 

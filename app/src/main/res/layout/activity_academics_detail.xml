@@ -17,6 +17,7 @@
         android:textSize="20sp"
         android:editable="false"
         android:scrollIndicators="right"
-        android:gravity="fill_horizontal"/>
+        android:gravity="fill_horizontal"
+        android:autoLink="all"/>
 
 </ScrollView>
