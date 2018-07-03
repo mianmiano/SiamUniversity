@@ -15,7 +15,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 
-/*傅夕芮hahaha*/
+/*傅夕芮ha*/
 
 public class AboutusActivity extends AppCompatActivity implements View.OnClickListener {
 
